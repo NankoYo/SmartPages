@@ -1,0 +1,5 @@
+# robots.txt generated at https://nankoyo.com/
+User-agent: *
+Disallow: 
+Disallow: /cgi-bin/
+Sitemap: https://nankoyo.com/sitemap.xml
