@@ -28,7 +28,10 @@ const Footer = ({ title }) => {
             <div id='footer-bottom' className='w-full h-20 flex flex-col p-3 lg:flex-row justify-between px-6 items-center bg-[#f1f3f7] dark:bg-[#30343f]'>
 
                 <div id='footer-bottom-left'>
-                   Copyright © 2023 - 现在 All Rights Reserved. NanKoYo Inc. 版权所有  Designed and Developed by NanKoYo Building  {siteConfig('VERSION')}
+                   Copyright © 2023 - 现在 All Rights Reserved. NanKoYo Inc. 版权所有
+                </div>
+                <div id='footer-bottom-left'>
+                   Designed and Developed by NanKoYo Building  {siteConfig('VERSION')}
                 </div>
 
             <div id='footer-bottom-right'>
