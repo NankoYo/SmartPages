@@ -33,9 +33,6 @@ const Footer = ({ title }) => {
                 <div id='footer-bottom-left'>
                    Designed And Developed BY NanKoYo Static Generator  {siteConfig('VERSION')}
                 </div>
-                <div id='footer-bottom-left'>
-                   NankoYo Provides Cloud Computing Service Support
-                </div>
             <div id='footer-bottom-right'>
                 {siteConfig('BEI_AN') && <><i className='fas fa-shield-alt' /> <a href='https://beian.miit.gov.cn/' className='mr-2'>{siteConfig('BEI_AN')}</a></>}
 
