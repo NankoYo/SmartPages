@@ -31,7 +31,7 @@ const Footer = ({ title }) => {
                    Copyright © 2023 - 现在 All Rights Reserved. NanKoYo Inc. 版权所有
                 </div>
                 <div id='footer-bottom-left'>
-                   Designed And Developed BY NanKoYo Static Generator  {siteConfig('VERSION')}
+                   Designed And Developed BY NanKoYo 静态生成器  {siteConfig('VERSION')}
                 </div>
             <div id='footer-bottom-right'>
                 {siteConfig('BEI_AN') && <><i className='fas fa-shield-alt' /> <a href='https://beian.miit.gov.cn/' className='mr-2'>{siteConfig('BEI_AN')}</a></>}
