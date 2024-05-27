@@ -10,9 +10,9 @@ const CONFIG = {
   ],
 
   // 英雄区左右侧组件颠倒位置
-  HEO_HERO_REVERSE: false,
+  HEO_HERO_REVERSE: true,
   // 博客主体区左右侧组件颠倒位置
-  HEO_HERO_BODY_REVERSE: false,
+  HEO_HERO_BODY_REVERSE: true,
 
   // 英雄区(首页顶部大卡)
   HEO_HERO_TITLE_1: '分享编程',
