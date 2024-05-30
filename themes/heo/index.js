@@ -249,8 +249,7 @@ const LayoutMemos = (props) => {
   };
   return (
     <>
-      <div
-        className={`article h-full w-full ${fullWidth ? '' : 'xl:max-w-5xl'} ${hasCode ? 'xl:w-[73.15vw]' : ''} lg:hover:shadow lg:border rounded-2xl lg:px-2 lg:py-4 bg-white dark:bg-[#18171d] dark:border-gray-600`}>
+        <div className={`article h-full w-full ${fullWidth ? '' : 'xl:max-w-5xl'} ${hasCode ? 'xl:w-[73.15vw]' : ''} lg:hover:shadow lg:border rounded-2xl lg:px-2 lg:py-4 bg-white dark:bg-[#18171d] dark:border-gray-600`}>
         {/* 文章锁 */}
         {lock && <PostLock validPassword={validPassword} />}
 
@@ -264,18 +263,29 @@ const LayoutMemos = (props) => {
               className='wow fadeInUp'>
               {/* Notion文章主体 */}
               <section className='px-5 justify-center mx-auto'>
+                <WWAds orientation='horizontal' className='w-full' />
                 {post && <NotionPage post={post} />}
+                <WWAds orientation='horizontal' className='w-full' />
               </section>
-            </article>
+        
+</article>
 
+      {/* 评论互动 */}
                 <div className='duration-200 overflow-x-auto px-5'>
                   <div className='text-2xl dark:text-white'>
                     <i className='fas fa-comment mr-1' />
                     {locale.COMMON.COMMENTS}
+                  </div>
                   <Comment frontMatter={post} className='' />
                 </div>
               </div>
-           </div>
+            )}
+          </div>
+        )}
+      </div>
+
+      <FloatTocButton {...props} />
+    </>
   )
 }
 
