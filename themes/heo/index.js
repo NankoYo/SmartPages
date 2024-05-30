@@ -354,7 +354,8 @@ const LayoutSlug = props => {
                   {/* 文章推荐 */}
                   <PostRecommend {...props} />
                 </div>
-              )}
+  )
+}
             </article>
 
             {/* 上一篇\下一篇文章 */}
@@ -384,7 +385,7 @@ const LayoutSlug = props => {
 
       <FloatTocButton {...props} />
     </>
-  )
+ )
 }
 
 /**
