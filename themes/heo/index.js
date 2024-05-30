@@ -272,7 +272,6 @@ const LayoutMemos = (props) => {
                   <div className='text-2xl dark:text-white'>
                     <i className='fas fa-comment mr-1' />
                     {locale.COMMON.COMMENTS}
-                  </div>
                   <Comment frontMatter={post} className='' />
                 </div>
               </div>
