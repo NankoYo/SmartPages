@@ -277,7 +277,6 @@ const LayoutMemos = (props) => {
                     {locale.COMMON.COMMENTS}
                   </div>
                   <Comment frontMatter={post} className='' />
-                  <FloatTocButton {...props} />
     </>
   )
 }
