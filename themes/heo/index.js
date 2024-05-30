@@ -276,7 +276,8 @@ const LayoutMemos = (props) => {
                 </div>
               </div>
            </div>
-            )}
+  )
+}
 
 /**
  * 文章详情
