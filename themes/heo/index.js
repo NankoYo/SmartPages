@@ -278,11 +278,7 @@ const LayoutMemos = (props) => {
                   </div>
                   <Comment frontMatter={post} className='' />
                 </div>
-              </div>
-            )}
-          </div>
-        )}
-      </div>
+            </div>
 
       <FloatTocButton {...props} />
     </>
