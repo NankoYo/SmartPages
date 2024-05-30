@@ -275,9 +275,6 @@ const LayoutMemos = (props) => {
                     {locale.COMMON.COMMENTS}
                   </div>
                   <Comment frontMatter={post} className='' />
-                </div>
-              </div>
-                    )}
           </div>
         )}
       </div>
