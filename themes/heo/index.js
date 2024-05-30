@@ -263,9 +263,7 @@ const LayoutMemos = (props) => {
               className='wow fadeInUp'>
               {/* Notion文章主体 */}
               <section className='px-5 justify-center mx-auto'>
-                <WWAds orientation='horizontal' className='w-full' />
                 {post && <NotionPage post={post} />}
-                <WWAds orientation='horizontal' className='w-full' />
               </section>
         
 </article>
@@ -273,11 +271,7 @@ const LayoutMemos = (props) => {
       {/* 评论区 */}
             {fullWidth ? null : (
               <div className={`${commentEnable && post ? '' : 'hidden'}`}>
-                <hr className='my-4 border-dashed' />
-                {/* 评论区上方广告 */}
-                <div className='py-2'>
-                  <AdSlot />
-                </div>
+                <hr className='my-4 border-dashed' /
                 {/* 评论互动 */}
                 <div className='duration-200 overflow-x-auto px-5'>
                   <div className='text-2xl dark:text-white'>
