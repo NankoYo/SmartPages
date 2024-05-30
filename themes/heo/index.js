@@ -6,6 +6,7 @@
  *  2. 更多说明参考此[文档](https://docs.tangly1024.com/article/notionnext-heo)
  */
 
+import BlogMemos from './components/BlogMemos'
 import Comment from '@/components/Comment'
 import { AdSlot } from '@/components/GoogleAdsense'
 import { HashTag } from '@/components/HeroIcons'
@@ -41,7 +42,6 @@ import SearchNav from './components/SearchNav'
 import SideRight from './components/SideRight'
 import CONFIG from './config'
 import { Style } from './style'
-import BlogMemos from './components/BlogMemos'
 /**
  * 基础布局 采用上中下布局，移动端使用顶部侧边导航栏
  * @param props
