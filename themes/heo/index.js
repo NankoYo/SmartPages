@@ -243,7 +243,7 @@ const LayoutArchive = props => {
  */
 const LayoutMemos = (props) => {
   const memoPageInfo = {
-    id: "9ecc78643def47bcvabeg5fn26304679", // 因为引入了评论互动，所以需要一个ID来对应加载页面评论，这里使用Notion这个菜单的pageID
+    id: "8aa0566b47a942b0ae2a485f88e371d1",
     type: "Memos",
     title: "即时动态",
   };
@@ -264,15 +264,10 @@ const LayoutMemos = (props) => {
               className='wow fadeInUp'>
               {/* Notion文章主体 */}
               <section className='px-5 justify-center mx-auto'>
-                <WWAds orientation='horizontal' className='w-full' />
                 {post && <NotionPage post={post} />}
-                <WWAds orientation='horizontal' className='w-full' />
               </section>
-                </div>
-              )}
             </article>
-      {/* 移除了分享模块，如果需要可以保留，将 LayoutSlug的对应部分拷贝过来 */}
-      {/* 评论互动 */}
+
                 <div className='duration-200 overflow-x-auto px-5'>
                   <div className='text-2xl dark:text-white'>
                     <i className='fas fa-comment mr-1' />
@@ -281,10 +276,8 @@ const LayoutMemos = (props) => {
                   <Comment frontMatter={post} className='' />
                 </div>
               </div>
+           </div>
             )}
-          </div>
-        )}
-}
 
 /**
  * 文章详情
