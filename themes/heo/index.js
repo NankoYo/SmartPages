@@ -269,7 +269,6 @@ const LayoutMemos = (props) => {
                </article>
          
                 {/* 评论互动 */}
-                <div className='duration-200 overflow-x-auto px-5'>
                   <Comment frontMatter={post} className='' />
           </div>
         )}
