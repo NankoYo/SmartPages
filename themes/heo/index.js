@@ -266,12 +266,8 @@ const LayoutMemos = (props) => {
                 {post && <NotionPage post={post} />}
               </section>
         
-</article>
-
-      {/* 评论区 */}
-            {fullWidth ? null : (
-              <div className={`${commentEnable && post ? '' : 'hidden'}`}>
-                <hr className='my-4 border-dashed' /
+               </article>
+         
                 {/* 评论互动 */}
                 <div className='duration-200 overflow-x-auto px-5'>
                   <div className='text-2xl dark:text-white'>
