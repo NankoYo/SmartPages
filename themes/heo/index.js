@@ -237,47 +237,6 @@ const LayoutArchive = props => {
 }
 
 /**
- * 说说
- * @param {*} props
- * @returns
- */
-const LayoutMemos = (props) => {
-  const memoPageInfo = {
-    id: "c04856b8d473491a85e11cc8759e37f2",
-    type: "Memos",
-    title: "即时动态",
-  };
-  return (
-    <>
-        <div className={`article h-full w-full ${fullWidth ? '' : 'xl:max-w-5xl'} ${hasCode ? 'xl:w-[73.15vw]' : ''} lg:hover:shadow lg:border rounded-2xl lg:px-2 lg:py-4 bg-white dark:bg-[#18171d] dark:border-gray-600`}>
-        {/* 文章锁 */}
-        {lock && <PostLock validPassword={validPassword} />}
-
-        {!lock && (
-          <div id='article-wrapper' className='mx-auto md:w-full md:px-5'>
-            {/* 文章主体 */}
-            <article
-              itemScope
-              itemType='https://schema.org/Movie'
-              data-wow-delay='.2s'
-              className='wow fadeInUp'>
-              {/* Notion文章主体 */}
-              <section className='px-5 justify-center mx-auto'>
-                {post && <NotionPage post={post} />}
-              </section>
-        
-               </article>
-         
-                {/* 评论互动 */}
-                  <Comment frontMatter={post} className='' />
-          </div>
-        )}
-      </div>
-    </>
- )
-   }
-
-/**
  * 文章详情
  * @param {*} props
  * @returns
@@ -533,7 +492,6 @@ const LayoutTagIndex = props => {
 export {
   Layout404,
   LayoutArchive,
-  LayoutMemos,
   LayoutBase,
   LayoutCategoryIndex,
   LayoutIndex,
