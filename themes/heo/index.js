@@ -243,7 +243,7 @@ const LayoutArchive = props => {
  */
 const LayoutMemos = (props) => {
   const memoPageInfo = {
-    id: "8aa0566b47a942b0ae2a485f88e371d1",
+    id: "c04856b8d473491a85e11cc8759e37f2",
     type: "Memos",
     title: "即时动态",
   };
