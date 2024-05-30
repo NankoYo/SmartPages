@@ -534,24 +534,11 @@ const LayoutTagIndex = props => {
     </div>
   )
 }
-// 在Index.js底部记得将LayoutMemos组件Export
-export {
-  CONFIG as THEME_CONFIG,
-  LayoutBase,
-  LayoutIndex,
-  LayoutSearch,
-  LayoutArchive,
-  LayoutMemos,   //增加LayoutMemos组件Export
-  LayoutJizhi,
-  LayoutSlug,
-  Layout404,
-  LayoutCategoryIndex,
-  LayoutPostList,
-  LayoutTagIndex
-}
+
 export {
   Layout404,
   LayoutArchive,
+  LayoutMemos,
   LayoutBase,
   LayoutCategoryIndex,
   LayoutIndex,
