@@ -247,25 +247,43 @@ const LayoutMemos = (props) => {
     type: "Memos",
     title: "即时动态",
   };
-  return  (   
-	{/* 这里不是hexo主题的话，return部分不要照搬，最好参考index.js 文章详情 LayoutSlug的模块移植 */}
-  <div className="w-full lg:hover:shadow rounded-md lg:rounded-md lg:px-2 lg:py-4 article">
-		{/* 去掉加密的Lock部分判断 */}
-    <div id="article-wrapper" className="overflow-x-auto flex-grow mx-auto md:w-full px-3 font-serif">  
-      <article itemScope itemType="https://schema.org/Movie" className="subpixel-antialiased overflow-y-hidden overflow-x-hidden" >
-        {/* Notion文章主体 */}
-        <section className='justify-center mx-auto max-w-2xl lg:max-w-full'>
-            <BlogMemos {...props}/>
-        </section>
-      </article>
-			{/* 移除了分享模块，如果需要可以保留，将 LayoutSlug的对应部分拷贝过来 */}
-      <div className='pt-4 border-dashed'></div>
+  return (
+    <>
+      <div
+        className={`article h-full w-full ${fullWidth ? '' : 'xl:max-w-5xl'} ${hasCode ? 'xl:w-[73.15vw]' : ''} lg:hover:shadow lg:border rounded-2xl lg:px-2 lg:py-4 bg-white dark:bg-[#18171d] dark:border-gray-600`}>
+        {/* 文章锁 */}
+        {lock && <PostLock validPassword={validPassword} />}
+
+        {!lock && (
+          <div id='article-wrapper' className='mx-auto md:w-full md:px-5'>
+            {/* 文章主体 */}
+            <article
+              itemScope
+              itemType='https://schema.org/Movie'
+              data-wow-delay='.2s'
+              className='wow fadeInUp'>
+              {/* Notion文章主体 */}
+              <section className='px-5 justify-center mx-auto'>
+                <WWAds orientation='horizontal' className='w-full' />
+                {post && <NotionPage post={post} />}
+                <WWAds orientation='horizontal' className='w-full' />
+              </section>
+                </div>
+              )}
+            </article>
+      {/* 移除了分享模块，如果需要可以保留，将 LayoutSlug的对应部分拷贝过来 */}
       {/* 评论互动 */}
-      <div className="duration-200 overflow-x-auto px-3">
-        <Comment frontMatter={memoPageInfo} />
-      </div>
-    </div>
-  </div>)
+                <div className='duration-200 overflow-x-auto px-5'>
+                  <div className='text-2xl dark:text-white'>
+                    <i className='fas fa-comment mr-1' />
+                    {locale.COMMON.COMMENTS}
+                  </div>
+                  <Comment frontMatter={post} className='' />
+                </div>
+              </div>
+            )}
+          </div>
+        )}
 }
 
 /**
