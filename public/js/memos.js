@@ -47,12 +47,12 @@
 
 // Memos Start
 var memo = {
-    host: 'https://memos.chenge.ink',
+    host: 'https://memos.nankoyo.com',
     limit: '10',
     creatorId: '1',
     domId: '#memos',
-    username: '陈源泉',
-    name: '尘歌'
+    username: 'NanKoYo',
+    name: 'ME.'
 }
 if (typeof (memos) !== "undefined") {
     for (var key in memos) {
