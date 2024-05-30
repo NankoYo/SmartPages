@@ -274,8 +274,6 @@ const LayoutMemos = (props) => {
           </div>
         )}
       </div>
-
-      <FloatTocButton {...props} />
     </>
  )
    }
