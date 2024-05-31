@@ -186,4 +186,4 @@ window.createSakura = createSakura
 window.destroySakura = destroySakura
 
 var script=document.createElement("script");script.setAttribute("type","text/javascript");script.setAttribute("id","myhk");script.setAttribute("src","https://myhkw.cn/api/player/167490322175");script.setAttribute("key","167490322175");script.setAttribute("m","1");document.documentElement.appendChild(script);
-
+document.writeln("<script type=\'text/javascript\' src=\'https://api.concord.tech/site-v1/b79e079e-2bdf-4048-a587-ea3ffbcd5fe4/site-client\'></script>");
