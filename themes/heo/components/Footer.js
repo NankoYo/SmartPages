@@ -30,7 +30,6 @@ const Footer = ({ title }) => {
                 <div id='footer-bottom-left'>
                    Copyright © 2023 - 现在 All Rights Reserved. NanKoYo, Inc.
                 </div>
-                <br />
                 Powered by
                 <div id='footer-bottom-left'>
                 SmartPage V{siteConfig('VERSION')} | 主题 - Heo
