@@ -32,7 +32,7 @@ const Footer = ({ title }) => {
                 </div>
                 Powered by
                 <div id='footer-bottom-left'>
-                SmartPage V{siteConfig('VERSION')} | 主题 - Heo
+                SmartPage V{siteConfig('VERSION')} | Theme - Heo
                 </div>
             <div id='footer-bottom-right'>
                 {siteConfig('BEI_AN') && <><i className='fas fa-shield-alt' /> <a href='https://beian.miit.gov.cn/' className='mr-2'>{siteConfig('BEI_AN')}</a></>}
