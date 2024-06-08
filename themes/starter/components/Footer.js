@@ -156,15 +156,15 @@ export const Footer = props => {
                     </a>
                   </p>
                     <p className='text-base text-gray-7'>
-                    由
+                        本站使用
                     <a
                       href='https://nankoyo.com'
                       rel='nofollow noopner noreferrer'
                       target='_blank'
                       className='px-1 text-gray-1 hover:underline'>
-                      NKY V{siteConfig('VERSION')}
+                      SmartPage V{siteConfig('VERSION')}
                     </a>
-                    驱动 | 主题 - Star v2.1.0
+                    构建 | 当前主题 - Star v2.1.0
                   </p>
                 </div>
               </div>
