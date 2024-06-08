@@ -164,7 +164,7 @@ export const Footer = props => {
                       className='px-1 text-gray-1 hover:underline'>
                       SmartPage V{siteConfig('VERSION')}
                     </a>
-                     |  Theme - Star v2.1.0
+                     | Star v2.1.0
                   </p>
                 </div>
               </div>
