@@ -20,12 +20,12 @@ const BLOG = {
   // 3.14.1版本后，欢迎语在此配置，英文逗号隔开 ,  即可支持多个欢迎语打字效果。
   GREETING_WORDS:
     process.env.NEXT_PUBLIC_GREETING_WORDS ||
-    'NanKoYo静态生成器是一个简单易用的工具，用于创建静态网页。它具有简洁的界面和丰富的功能，可以帮助用户快速构建漂亮的网站，无需深入了解编程知识。使用NanKoYo，您可以轻松地添加文本、图片、链接和其他元素，定制您的网页设计，让您的内容更具吸引力。无论您是个人博客、企业网站还是在线简历，NanKoYo都能满足您的需求，并帮助您在互联网上展示自己或您的业务。',
+    'SmartPage是一个简单易用的工具，用于创建静态网页。它具有简洁的界面和丰富的功能，可以帮助用户快速构建漂亮的网站，无需深入了解编程知识。使用NanKoYo，您可以轻松地添加文本、图片、链接和其他元素，定制您的网页设计，让您的内容更具吸引力。无论您是个人博客、企业网站还是在线简历，NanKoYo都能满足您的需求，并帮助您在互联网上展示自己或您的业务。',
 
   CUSTOM_MENU: process.env.NEXT_PUBLIC_CUSTOM_MENU || false, // 支持Menu 类型，从3.12.0版本起，各主题将逐步支持灵活的二级菜单配置，替代了原来的Page类型，此配置是试验功能、默认关闭。
 
   AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || 'NanKoYo', // 您的昵称 例如 tangly1024
-  BIO: process.env.NEXT_PUBLIC_BIO || 'NanKoYo静态生成器是一个简单易用的工具，用于创建静态网页。它具有简洁的界面和丰富的功能，可以帮助用户快速构建漂亮的网站，无需深入了解编程知识。使用NanKoYo，您可以轻松地添加文本、图片、链接和其他元素，定制您的网页设计，让您的内容更具吸引力。无论您是个人博客、企业网站还是在线简历，NanKoYo都能满足您的需求，并帮助您在互联网上展示自己或您的业务。', // 作者简介
+  BIO: process.env.NEXT_PUBLIC_BIO || 'SmartPage是一个简单易用的工具，用于创建静态网页。它具有简洁的界面和丰富的功能，可以帮助用户快速构建漂亮的网站，无需深入了解编程知识。使用NanKoYo，您可以轻松地添加文本、图片、链接和其他元素，定制您的网页设计，让您的内容更具吸引力。无论您是个人博客、企业网站还是在线简历，NanKoYo都能满足您的需求，并帮助您在互联网上展示自己或您的业务。', // 作者简介
   LINK: process.env.NEXT_PUBLIC_LINK || 'https://nankoyo.com', // 网站地址
   KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || '静态网页生成器,简单易用的网页生成器,无编程知识的网页构建工具,网页设计工具,个人网站建设工具,企业网站建设工具,在线简历制作工具,图文混排网页编辑器,自定义网页布局工具,专业网页模板选择', // 网站关键词 英文逗号隔开
 
@@ -532,11 +532,11 @@ const BLOG = {
 
   // 作废配置
   AVATAR: process.env.NEXT_PUBLIC_AVATAR || '/avatar.svg', // 作者头像，被notion中的ICON覆盖。若无ICON则取public目录下的avatar.png
-  TITLE: process.env.NEXT_PUBLIC_TITLE || 'NanKoYo静态生成器 - NanKoYo Inc', // 站点标题 ，被notion中的页面标题覆盖；此处请勿留空白，否则服务器无法编译
+  TITLE: process.env.NEXT_PUBLIC_TITLE || 'SmartPage - NanKoYo Inc', // 站点标题 ，被notion中的页面标题覆盖；此处请勿留空白，否则服务器无法编译
   HOME_BANNER_IMAGE:
     process.env.NEXT_PUBLIC_HOME_BANNER_IMAGE || '/bg_image.jpg', // 首页背景大图, 会被notion中的封面图覆盖，若无封面图则会使用代码中的 /public/bg_image.jpg 文件
   DESCRIPTION:
-    process.env.NEXT_PUBLIC_DESCRIPTION || 'NankoYo静态生成器是一个创新性的网页项目，旨在为用户提供一种简单而强大的方式来创建静态网站。通过结合自然语言处理和图形学技术，NankoYo能够从用户提供的简单文本描述中生成复杂的网页布局和设计。这个项目的目标是让网站创建变得更加容易和直观，使任何人都能够在没有编程知识的情况下设计出令人印象深刻的网站。NankoYo静态生成器将用户的创意转化为现实，为他们带来了全新的网页开发体验。', // 站点描述，被notion中的页面描述覆盖
+    process.env.NEXT_PUBLIC_DESCRIPTION || 'SmartPage是一个创新性的网页项目，旨在为用户提供一种简单而强大的方式来创建静态网站。通过结合自然语言处理和图形学技术，NankoYo能够从用户提供的简单文本描述中生成复杂的网页布局和设计。这个项目的目标是让网站创建变得更加容易和直观，使任何人都能够在没有编程知识的情况下设计出令人印象深刻的网站。NankoYo静态生成器将用户的创意转化为现实，为他们带来了全新的网页开发体验。', // 站点描述，被notion中的页面描述覆盖
 
   // 开发相关
   NOTION_ACCESS_TOKEN: process.env.NOTION_ACCESS_TOKEN || '', // Useful if you prefer not to make your database public
