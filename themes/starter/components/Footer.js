@@ -155,8 +155,8 @@ export const Footer = props => {
                       NanKoYo,Inc.
                     </a>
                   </p>
+                  <br />
                     <p className='text-base text-gray-7'>
-                        本站使用
                     <a
                       href='https://nankoyo.com'
                       rel='nofollow noopner noreferrer'
@@ -164,7 +164,7 @@ export const Footer = props => {
                       className='px-1 text-gray-1 hover:underline'>
                       SmartPage V{siteConfig('VERSION')}
                     </a>
-                    构建 | 当前主题 - Star v2.1.0
+                     |  Theme - Star v2.1.0
                   </p>
                 </div>
               </div>
