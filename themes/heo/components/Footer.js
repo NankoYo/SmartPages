@@ -30,8 +30,10 @@ const Footer = ({ title }) => {
                 <div id='footer-bottom-left'>
                    Copyright © 2023 - 现在 All Rights Reserved. NanKoYo, Inc.
                 </div>
+                <br />
+                Powered by
                 <div id='footer-bottom-left'>
-                   本站使用 SmartPage V{siteConfig('VERSION')} 构建 | 当前主题 - Heo v3.1
+                SmartPage V{siteConfig('VERSION')} | 主题 - Heo
                 </div>
             <div id='footer-bottom-right'>
                 {siteConfig('BEI_AN') && <><i className='fas fa-shield-alt' /> <a href='https://beian.miit.gov.cn/' className='mr-2'>{siteConfig('BEI_AN')}</a></>}
