@@ -10,8 +10,8 @@ const CONFIG = {
 
   // 英雄区块导航
   STARTER_HERO_ENABLE: true, // 开启英雄区
-  STARTER_HERO_TITLE_1: 'NankoYo静态生成器', // 英雄区文字
-  STARTER_HERO_TITLE_2: 'NankoYo静态生成器是一个创新性的网页项目，旨在为用户提供一种简单而强大的方式来创建静态网站。通过结合自然语言处理和图形学技术，NankoYo能够从用户提供的简单文本描述中生成复杂的网页布局和设计。这个项目的目标是让网站创建变得更加容易和直观，使任何人都能够在没有编程知识的情况下设计出令人印象深刻的网站。NankoYo静态生成器将用户的创意转化为现实，为他们带来了全新的网页开发体验。', // 英雄区文字
+  STARTER_HERO_TITLE_1: 'SmartPage', // 英雄区文字
+  STARTER_HERO_TITLE_2: 'SmartPage是一个创新性的网页项目，旨在为用户提供一种简单而强大的方式来创建静态网站。通过结合自然语言处理和图形学技术，NankoYo能够从用户提供的简单文本描述中生成复杂的网页布局和设计。这个项目的目标是让网站创建变得更加容易和直观，使任何人都能够在没有编程知识的情况下设计出令人印象深刻的网站。NankoYo静态生成器将用户的创意转化为现实，为他们带来了全新的网页开发体验。', // 英雄区文字
   // 英雄区两个按钮，如果TEXT留空则隐藏按钮
   STARTER_HERO_BUTTON_1_TEXT: '', // 英雄区按钮
   STARTER_HERO_BUTTON_1_URL:'', // 英雄区按钮
@@ -60,7 +60,7 @@ const CONFIG = {
   STARTER_ABOUT_ENABLE: true, // ABOUT区块开关
   STARTER_ABOUT_TITLE: '一套轻量实用的建站解决方案',
   STARTER_ABOUT_TEXT:
-    'NanKoYo静态生成器是一款简单而强大的网页生成器，旨在让任何人都能轻松创建出令人印象深刻的网站，无需编程知识。<br /> <br />我们结合了自然语言处理和图形学技术，为用户提供了直观、灵活的网页设计体验。无论您是个人用户还是企业客户，NanKoYo都能满足您的需求，让网页设计变得简单、直观和创意。',
+    'SmartPage是一款简单而强大的网页生成器，旨在让任何人都能轻松创建出令人印象深刻的网站，无需编程知识。<br /> <br />我们结合了自然语言处理和图形学技术，为用户提供了直观、灵活的网页设计体验。无论您是个人用户还是企业客户，NanKoYo都能满足您的需求，让网页设计变得简单、直观和创意。',
   STARTER_ABOUT_BUTTON_TEXT: '了解更多',
   STARTER_ABOUT_BUTTON_URL: '/about',
   STARTER_ABOUT_IMAGE_1: 'https://cdn.nankoyo.com/public/cache/star/images/about/about-image-01.jpg',
@@ -119,7 +119,7 @@ const CONFIG = {
   STARTER_TESTIMONIALS_ITEMS: [
     {
       STARTER_TESTIMONIALS_ITEM_TEXT:
-        'NanoKoYo静态生成器确实是个神器，简单易用，帮我节省了大量时间！',
+        'SmartPage确实是个神器，简单易用，帮我节省了大量时间！',
       STARTER_TESTIMONIALS_ITEM_AVATAR:
         'https://cdn.nankoyo.com/public/cache/star/images/testimonials/author-01.png',
       STARTER_TESTIMONIALS_ITEM_NICKNAME: 'Alice Wang',
@@ -128,7 +128,7 @@ const CONFIG = {
     },
     {
       STARTER_TESTIMONIALS_ITEM_TEXT:
-        'NanoKoYo静态生成器是我使用过的最简单、最有效的工具之一，极大地提升了我的工作效率！！',
+        'SmartPage是我使用过的最简单、最有效的工具之一，极大地提升了我的工作效率！！',
       STARTER_TESTIMONIALS_ITEM_AVATAR:
         'https://cdn.nankoyo.com/public/cache/star/images/testimonials/author-02.png',
       STARTER_TESTIMONIALS_ITEM_NICKNAME: 'Michael Smith',
@@ -137,7 +137,7 @@ const CONFIG = {
     },
     {
       STARTER_TESTIMONIALS_ITEM_TEXT:
-        'NanoKoYo静态生成器的稳定性和可靠性让我无需担心网站崩溃或数据丢失，十分放心！',
+        'SmartPage的稳定性和可靠性让我无需担心网站崩溃或数据丢失，十分放心！',
       STARTER_TESTIMONIALS_ITEM_AVATAR:
         'https://cdn.nankoyo.com/public/cache/star/images/testimonials/author-03.png',
       STARTER_TESTIMONIALS_ITEM_NICKNAME: 'Emily Johnson',
@@ -146,7 +146,7 @@ const CONFIG = {
     },
     {
       STARTER_TESTIMONIALS_ITEM_TEXT:
-        'NanoKoYo静态生成器的团队服务态度非常好，对于我的疑问和需求都能及时回复和解决，让我感到非常满意和放心！',
+        'SmartPage的团队服务态度非常好，对于我的疑问和需求都能及时回复和解决，让我感到非常满意和放心！',
       STARTER_TESTIMONIALS_ITEM_AVATAR:
         'https://cdn.nankoyo.com/public/cache/star/images/testimonials/author-04.png',
       STARTER_TESTIMONIALS_ITEM_NICKNAME: 'David Brown',
@@ -155,7 +155,7 @@ const CONFIG = {
     },
     {
       STARTER_TESTIMONIALS_ITEM_TEXT:
-        'NanoKoYo静态生成器的用户反馈展示功能帮助我更好地了解用户需求，为产品改进提供了宝贵意见！ ',
+        'SmartPage的用户反馈展示功能帮助我更好地了解用户需求，为产品改进提供了宝贵意见！ ',
       STARTER_TESTIMONIALS_ITEM_AVATAR:
         'https://cdn.nankoyo.com/public/cache/star/images/testimonials/author-05.png',
       STARTER_TESTIMONIALS_ITEM_NICKNAME: 'Sarah Wilson',
@@ -163,7 +163,7 @@ const CONFIG = {
       STARTER_TESTIMONIALS_ITEM_URL: '/'
     },
     {
-      STARTER_TESTIMONIALS_ITEM_TEXT: '我对NanoKoYo静态生成器的用户反馈展示功能赞不绝口，它让我能够更直观地了解用户的需求和意见，为产品改进提供了重要参考！',
+      STARTER_TESTIMONIALS_ITEM_TEXT: '我对SmartPage的用户反馈展示功能赞不绝口，它让我能够更直观地了解用户的需求和意见，为产品改进提供了重要参考！',
       STARTER_TESTIMONIALS_ITEM_AVATAR:
         'https://cdn.nankoyo.com/public/cache/star/images/testimonials/author-06.png',
       STARTER_TESTIMONIALS_ITEM_NICKNAME: 'John Lee',
@@ -178,21 +178,21 @@ const CONFIG = {
   STARTER_FAQ_TEXT_1: '有任何问题吗？请看这里',
   STARTER_FAQ_TEXT_2: '我们收集了常见的用户疑问',
 
-  STARTER_FAQ_1_QUESTION: 'NanKoYo静态生成器是什么？',
+  STARTER_FAQ_1_QUESTION: 'SmartPage是什么？',
   STARTER_FAQ_1_ANSWER:
-    'NanKoYo静态生成器是一个用于创建静态网站的工具，它可以将网站内容转换为纯HTML、CSS和JavaScript文件，以提高网站加载速度和安全性。',
+    'SmartPage是一个用于创建静态网站的工具，它可以将网站内容转换为纯HTML、CSS和JavaScript文件，以提高网站加载速度和安全性。',
 
-  STARTER_FAQ_2_QUESTION: 'NanKoYo静态生成器与动态网站有何不同？',
+  STARTER_FAQ_2_QUESTION: 'SmartPage与动态网站有何不同？',
   STARTER_FAQ_2_ANSWER:
-    '与动态网站相比，NanKoYo静态生成器生成的网站不需要在每次请求时动态生成内容，而是在构建时就生成所有页面。这样可以减少服务器负载和提高网站性能。',
+    '与动态网站相比，SmartPage生成的网站不需要在每次请求时动态生成内容，而是在构建时就生成所有页面。这样可以减少服务器负载和提高网站性能。',
 
-  STARTER_FAQ_3_QUESTION: 'NanKoYo静态生成器适用于哪些类型的网站？',
+  STARTER_FAQ_3_QUESTION: 'SmartPage适用于哪些类型的网站？',
   STARTER_FAQ_3_ANSWER:
-    'NanKoYo静态生成器适用于许多类型的网站，特别是对于内容不经常更新或不需要动态交互的网站，例如博客、文档站点和企业官方网站等。',
+    'SmartPage适用于许多类型的网站，特别是对于内容不经常更新或不需要动态交互的网站，例如博客、文档站点和企业官方网站等。',
 
-  STARTER_FAQ_4_QUESTION: 'NanKoYo静态生成器的优势有哪些？',
+  STARTER_FAQ_4_QUESTION: 'SmartPage的优势有哪些？',
   STARTER_FAQ_4_ANSWER:
-    'NanKoYo静态生成器具有诸多优势，包括更快的页面加载速度、更低的服务器成本、更好的安全性和更简单的部署过程。此外，它还能够更好地应对高流量和DDoS攻击等挑战。',
+    'SmartPage具有诸多优势，包括更快的页面加载速度、更低的服务器成本、更好的安全性和更简单的部署过程。此外，它还能够更好地应对高流量和DDoS攻击等挑战。',
 
   // 团队成员区块
   STARTER_TEAM_ENABLE: true, // 团队成员区块开关
@@ -309,7 +309,7 @@ const CONFIG = {
   // 博客文章区块
   STARTER_BLOG_ENABLE: true, // 首页博文区块开关
   STARTER_BLOG_TITLE: '我们的博客',
-  STARTER_BLOG_COUNT: 3, // 首页博文区块默认展示前3篇文章
+  STARTER_BLOG_COUNT: 5, // 首页博文区块默认展示前3篇文章
   STARTER_BLOG_TEXT_1: '最近的新闻',
   STARTER_BLOG_TEXT_2:
     '这里会发布一些关于NanKoYo的最新动态，包括新的动向、新的未来计划，以及新功能的特性',
@@ -369,7 +369,7 @@ const CONFIG = {
     }
   ],
 
-  STARTER_FOOTER_SLOGAN: 'NankoYo静态生成器是一个创新性的网页项目，旨在为用户提供一种简单而强大的方式来创建静态网站。通过结合自然语言处理和图形学技术，NankoYo能够从用户提供的简单文本描述中生成复杂的网页布局和设计。这个项目的目标是让网站创建变得更加容易和直观，使任何人都能够在没有编程知识的情况下设计出令人印象深刻的网站。NankoYo静态生成器将用户的创意转化为现实，为他们带来了全新的网页开发体验。',
+  STARTER_FOOTER_SLOGAN: 'SmartPage是一个创新性的网页项目，旨在为用户提供一种简单而强大的方式来创建静态网站。通过结合自然语言处理和图形学技术，NankoYo能够从用户提供的简单文本描述中生成复杂的网页布局和设计。这个项目的目标是让网站创建变得更加容易和直观，使任何人都能够在没有编程知识的情况下设计出令人印象深刻的网站。SmartPage将用户的创意转化为现实，为他们带来了全新的网页开发体验。',
 
   // 页脚三列菜单组
   STARTER_FOOTER_LINK_GROUP: [
