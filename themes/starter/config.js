@@ -383,8 +383,8 @@ const CONFIG = {
           URL: 'https://nankoyo.com/how-to-question'
         },
         {
-          TITLE: '合作申请',
-          URL: 'https://nankoyo.com/my-service'
+          TITLE: 'Cookie 协议',
+          URL: 'https://nankoyo.com/Cookie_Policy'
         }
       ]
     },
