@@ -406,27 +406,27 @@ const CONFIG = {
       TITLE: '友情链接',
       LINK_GROUP: [
         {
-          TITLE: 'Website_status_monitoring',
+          TITLE: 'Status',
           URL: 'https://status.nankoyo.com'
         },
         {
-          TITLE: 'It_Tools_Box',
+          TITLE: 'Tools',
           URL: 'https://tools.nankoyo.com'
         },
         {
-          TITLE: 'South_Cool_Tour_Music',
+          TITLE: 'Music',
           URL: 'https://music.nankoyo.com'
         },
         {
-          TITLE: 'Music_unlocking_Tool',
+          TITLE: 'Unlock',
           URL: 'https://unlock.nankoyo.com'
         },
         {
-          TITLE: 'Open_DNS_server',
+          TITLE: 'DNS',
           URL: 'https://dns.nankoyo.com'
         },
         {
-          TITLE: 'Today's_hot_list',
+          TITLE: 'Hot',
           URL: 'https://hot.nankoyo.com'
         }
       ]
