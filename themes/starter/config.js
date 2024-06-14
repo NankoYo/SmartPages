@@ -319,7 +319,7 @@ const CONFIG = {
   STARTER_CONTACT_TITLE: '联系我们',
   STARTER_CONTACT_TEXT: '告诉我们您遇到的问题',
   STARTER_CONTACT_LOCATION_TITLE: '我们的位置',
-  STARTER_CONTACT_LOCATION_TEXT: '中国，天津',
+  STARTER_CONTACT_LOCATION_TEXT: 'China，Hongkong',
   STARTER_CONTACT_EMAIL_TITLE: '我们如何帮助您？',
   STARTER_CONTACT_EMAIL_TEXT: 'mail@nankoyo.com',
 
@@ -406,27 +406,27 @@ const CONFIG = {
       TITLE: '友情链接',
       LINK_GROUP: [
         {
-          TITLE: 'Website status monitoring',
+          TITLE: 'Website_status_monitoring',
           URL: 'https://status.nankoyo.com/'
         },
         {
-          TITLE: 'It Tools Box',
+          TITLE: 'It_Tools_Box',
           URL: 'https://tools.nankoyo.com/'
         },
         {
-          TITLE: 'South Cool Tour Music',
+          TITLE: 'South_Cool_Tour_Music',
           URL: 'https://music.nankoyo.com/'
         },
         {
-          TITLE: 'Music unlocking tool',
+          TITLE: 'Music_unlocking_Tool',
           URL: 'https://unlock.nankoyo.com/'
         },
         {
-          TITLE: 'Open DNS server',
+          TITLE: 'Open_DNS_server',
           URL: 'https://dns.nankoyo.com/'
         },
         {
-          TITLE: 'Today's hot list',
+          TITLE: 'Today's_hot_list',
           URL: 'https://hot.nankoyo.com/'
         }
       ]
