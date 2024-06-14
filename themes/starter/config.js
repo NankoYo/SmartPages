@@ -410,7 +410,7 @@ const CONFIG = {
           URL: 'https://status.nankoyo.com/'
         },
         {
-          TITLE: 'Programmer's Tools',
+          TITLE: 'It Tools Box',
           URL: 'https://tools.nankoyo.com/'
         },
         {
