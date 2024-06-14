@@ -407,27 +407,27 @@ const CONFIG = {
       LINK_GROUP: [
         {
           TITLE: 'Website_status_monitoring',
-          URL:'https://status.nankoyo.com/'
+          URL: 'https://status.nankoyo.com'
         },
         {
-          TITLE:'It_Tools_Box',
-          URL:'https://tools.nankoyo.com/'
+          TITLE: 'It_Tools_Box',
+          URL: 'https://tools.nankoyo.com'
         },
         {
-          TITLE:'South_Cool_Tour_Music',
-          URL:'https://music.nankoyo.com/'
+          TITLE: 'South_Cool_Tour_Music',
+          URL: 'https://music.nankoyo.com'
         },
         {
-          TITLE:'Music_unlocking_Tool',
-          URL:'https://unlock.nankoyo.com/'
+          TITLE: 'Music_unlocking_Tool',
+          URL: 'https://unlock.nankoyo.com'
         },
         {
-          TITLE:'Open_DNS_server',
-          URL:'https://dns.nankoyo.com/'
+          TITLE: 'Open_DNS_server',
+          URL: 'https://dns.nankoyo.com'
         },
         {
-          TITLE:'Today's_hot_list',
-          URL:'https://hot.nankoyo.com/'
+          TITLE: 'Today's_hot_list',
+          URL: 'https://hot.nankoyo.com'
         }
       ]
     }
