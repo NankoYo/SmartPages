@@ -376,15 +376,15 @@ const CONFIG = {
     {
       TITLE: '关于我们',
       LINK_GROUP: [
-        { TITLE: '官方主页', URL: '/#home' },
-        { TITLE: '操作文档', URL: 'https://nankoyo.com/operating' },
+        { TITLE:'官方主页', URL: '/#home' },
+        { TITLE:'操作文档', URL: 'https://nankoyo.com/operating' },
         {
           TITLE: '帮助支持',
-          URL: 'https://nankoyo.com/how-to-question'
+          URL:'https://nankoyo.com/how-to-question'
         },
         {
-          TITLE: 'Cookie 协议',
-          URL: 'https://nankoyo.com/Cookie_Policy'
+          TITLE:'Cookie 协议',
+          URL:'https://nankoyo.com/Cookie_Policy'
         }
       ]
     },
@@ -392,14 +392,14 @@ const CONFIG = {
       TITLE: '功能特性',
       LINK_GROUP: [
         {
-          TITLE: '部署指南',
-          URL: 'https://nankoyo.com/deploy-nankoyo-next'
+          TITLE:'部署指南',
+          URL:'https://nankoyo.com/deploy-nankoyo-next'
         },
         {
-          TITLE: '升级指南',
-          URL: 'https://nankoyo.com/how-to-update-nankoyo'
+          TITLE:'升级指南',
+          URL:'https://nankoyo.com/how-to-update-nankoyo'
         },
-        { TITLE: '最新版本', URL: 'https://nankoyo.com/latest' }
+        { TITLE:'最新版本', URL: 'https://nankoyo.com/latest' }
       ]
     },
     {
@@ -407,27 +407,27 @@ const CONFIG = {
       LINK_GROUP: [
         {
           TITLE: 'Website_status_monitoring',
-          URL: 'https://status.nankoyo.com/'
+          URL:'https://status.nankoyo.com/'
         },
         {
-          TITLE: 'It_Tools_Box',
-          URL: 'https://tools.nankoyo.com/'
+          TITLE:'It_Tools_Box',
+          URL:'https://tools.nankoyo.com/'
         },
         {
-          TITLE: 'South_Cool_Tour_Music',
-          URL: 'https://music.nankoyo.com/'
+          TITLE:'South_Cool_Tour_Music',
+          URL:'https://music.nankoyo.com/'
         },
         {
-          TITLE: 'Music_unlocking_Tool',
-          URL: 'https://unlock.nankoyo.com/'
+          TITLE:'Music_unlocking_Tool',
+          URL:'https://unlock.nankoyo.com/'
         },
         {
-          TITLE: 'Open_DNS_server',
-          URL: 'https://dns.nankoyo.com/'
+          TITLE:'Open_DNS_server',
+          URL:'https://dns.nankoyo.com/'
         },
         {
-          TITLE: 'Today's_hot_list',
-          URL: 'https://hot.nankoyo.com/'
+          TITLE:'Today's_hot_list',
+          URL:'https://hot.nankoyo.com/'
         }
       ]
     }
