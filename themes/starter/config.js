@@ -383,8 +383,28 @@ const CONFIG = {
           URL:'https://nankoyo.com/how-to-question'
         },
         {
-          TITLE:'Cookie 协议',
+          TITLE: 'Cookie 协议',
           URL:'https://nankoyo.com/Cookie_Policy'
+        },
+        {
+          TITLE: '微信公众号',
+          URL:'https://html.nankoyo.com/wechat.html'
+        },
+        {
+          TITLE: '抖音',
+          URL:'https://html.nankoyo.com/tiktok.html'
+        },
+        {
+          TITLE: '快手',
+          URL:'https://html.nankoyo.com/kwai.html'
+        },
+        {
+          TITLE: '哔哩哔哩',
+          URL:'https://html.nankoyo.com/bilibili.html'
+        },
+        {
+          TITLE:'微博',
+          URL:'https://html.nankoyo.com/weibo.html'
         }
       ]
     },
