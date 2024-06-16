@@ -374,26 +374,10 @@ const CONFIG = {
   // 页脚三列菜单组
   STARTER_FOOTER_LINK_GROUP: [
     {
-      TITLE: '关于我们',
+      TITLE: '关注我们',
       LINK_GROUP: [
-        { TITLE:'官方主页', URL: '/#home' },
-        { TITLE:'操作文档', URL: 'https://nankoyo.com/operating' },
-        {
-          TITLE: '帮助支持',
-          URL:'https://nankoyo.com/how-to-question'
-        },
-        {
-          TITLE: 'Cookie 协议',
-          URL:'https://nankoyo.com/Cookie_Policy'
-        },
-        {
-          TITLE: '微信公众号',
-          URL:'https://html.nankoyo.com/wechat.html'
-        },
-        {
-          TITLE: '抖音',
-          URL:'https://html.nankoyo.com/tiktok.html'
-        },
+        { TITLE:'微信公众号', URL: 'https://html.nankoyo.com/wechat.html' },
+        { TITLE:'抖音', URL: 'https://html.nankoyo.com/tiktok.html' },
         {
           TITLE: '快手',
           URL:'https://html.nankoyo.com/kwai.html'
@@ -409,8 +393,20 @@ const CONFIG = {
       ]
     },
     {
-      TITLE: '功能特性',
+      TITLE: '帮助支持',
       LINK_GROUP: [
+        {
+          TITLE:'操作文档',
+          URL:'https://nankoyo.com/operating'
+        },
+        {
+          TITLE:'帮助支持',
+          URL:'https://nankoyo.com/how-to-question'
+        },
+        {
+          TITLE:'Cookie 协议',
+          URL:'https://nankoyo.com/Cookie_Policy'
+        },
         {
           TITLE:'部署指南',
           URL:'https://nankoyo.com/deploy-nankoyo-next'
