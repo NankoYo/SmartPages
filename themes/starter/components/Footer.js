@@ -146,6 +146,16 @@ export const Footer = props => {
               <div className='w-full px-4 md:w-1/3 lg:w-1/2'>
                 <div className='my-1 flex justify-center md:justify-end'>
                   <p className='text-base text-gray-7'>
+                    Copyright © 2023 - 现在
+                    <a
+                      href='https://vallengine.com'
+                      rel='nofollow noopner noreferrer'
+                      target='_blank'
+                      className='px-1 text-gray-1 hover:underline'>
+                      Vallengine
+                    </a>
+                    All Rights Reserved.
+                    <br /> 
                     <a
                       href='https://nankoyo.com'
                       rel='nofollow noopner noreferrer'
