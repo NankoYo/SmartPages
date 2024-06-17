@@ -39,23 +39,23 @@ const CONFIG = {
   STARTER_FEATURE_1_TITLE_1: '数据安全保障', // 特性1
   STARTER_FEATURE_1_TEXT_1: '强化云谷引擎（Vallengine）的首要优势', // 特性1
   STARTER_FEATURE_1_BUTTON_TEXT: '了解更多', // 特性1
-  STARTER_FEATURE_1_BUTTON_URL: 'https://github.com/tangly1024/NotionNext', // 特性1
+  STARTER_FEATURE_1_BUTTON_URL: '/Data_Security_Assurance', // 特性1
 
   STARTER_FEATURE_2_TITLE_1: '高度定制化', // 特性2
   STARTER_FEATURE_2_TEXT_1: '个性化需求的完美解决方案', // 特性2
   STARTER_FEATURE_2_BUTTON_TEXT: '了解更多', // 特性2
   STARTER_FEATURE_2_BUTTON_URL:
-    'https://docs.tangly1024.com/article/notion-next-themes', // 特性2
+    '/Highly_customizable', // 特性2
 
   STARTER_FEATURE_3_TITLE_1: '灵活扩展性', // 特性3
   STARTER_FEATURE_3_TEXT_1: '随需应变，轻松应对业务增长', // 特性3
   STARTER_FEATURE_3_BUTTON_TEXT: '了解更多', // 特性3
-  STARTER_FEATURE_3_BUTTON_URL: 'https://docs.tangly1024.com/article/next-js', // 特性3
+  STARTER_FEATURE_3_BUTTON_URL: '/Flexible_Scalability', // 特性3
 
   STARTER_FEATURE_4_TITLE_1: '卓越性能表现', // 特性4
   STARTER_FEATURE_4_TEXT_1: '稳定、高效的运行保障', // 特性4
   STARTER_FEATURE_4_BUTTON_TEXT: '了解更多', // 特性4
-  STARTER_FEATURE_4_BUTTON_URL: 'https://docs.tangly1024.com/about', // 特性4
+  STARTER_FEATURE_4_BUTTON_URL: '/Excellent_performance', // 特性4
 
   // 首页ABOUT区块
   STARTER_ABOUT_ENABLE: true, // ABOUT区块开关
@@ -63,7 +63,7 @@ const CONFIG = {
   STARTER_ABOUT_TEXT:
     '无论您是个人开发者还是大型企业，云谷引擎都能为您提供可靠的云计算解决方案。',
   STARTER_ABOUT_BUTTON_TEXT: '了解更多',
-  STARTER_ABOUT_BUTTON_URL: 'https://docs.tangly1024.com/about',
+  STARTER_ABOUT_BUTTON_URL: '/about',
   STARTER_ABOUT_IMAGE_1: '/images/starter/about/about-image-01.jpg',
   STARTER_ABOUT_IMAGE_2: '/images/starter/about/about-image-02.jpg',
   STARTER_ABOUT_TIPS_1: '7年',
