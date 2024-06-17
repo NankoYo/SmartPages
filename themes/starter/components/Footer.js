@@ -152,7 +152,7 @@ export const Footer = props => {
                       rel='nofollow noopner noreferrer'
                       target='_blank'
                       className='px-1 text-gray-1 hover:underline'>
-                      SmartPage {siteConfig('VERSION')}
+                      NanKoYo,Inc
                     </a>
                     All Rights Reserved.
                     <br />
