@@ -313,14 +313,18 @@ const CONFIG = {
       TITLE: '功能特性',
       LINK_GROUP: [
         {
-          TITLE: '部署指南',
-          URL: 'https://docs.tangly1024.com/article/vercel-deploy-notion-next'
+          TITLE: '数据安全保障',
+          URL: '/Data_Security_Assurance'
         },
         {
-          TITLE: '升级指南',
+          TITLE: '升级直男',
           URL: 'https://docs.tangly1024.com/article/how-to-update-notionnext'
         },
-        { TITLE: '最新版本', URL: 'https://docs.tangly1024.com/article/latest' }
+        {
+          TITLE: '升级直男',
+          URL: 'https://docs.tangly1024.com/article/how-to-update-notionnext'
+        },
+        { TITLE: '数据安全保障', URL: '/Data_Security_Assurance' }
       ]
     },
     {
