@@ -146,13 +146,22 @@ export const Footer = props => {
               <div className='w-full px-4 md:w-1/3 lg:w-1/2'>
                 <div className='my-1 flex justify-center md:justify-end'>
                   <p className='text-base text-gray-7'>
-                    Designed and Developed by
+                    网页构建程序:
                     <a
-                      href='https://github.com/tangly1024/NotionNext'
+                      href='https://nankoyo.com'
                       rel='nofollow noopner noreferrer'
                       target='_blank'
                       className='px-1 text-gray-1 hover:underline'>
-                      NotionNext {siteConfig('VERSION')}
+                      SmartPage {siteConfig('VERSION')}
+                    </a>
+                    <br />
+                    云服务提供商:
+                    <a
+                      href='https://vallengine.com'
+                      rel='nofollow noopner noreferrer'
+                      target='_blank'
+                      className='px-1 text-gray-1 hover:underline'>
+                      Vallengine
                     </a>
                   </p>
                 </div>
