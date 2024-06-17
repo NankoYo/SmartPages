@@ -317,14 +317,14 @@ const CONFIG = {
           URL: '/Data_Security_Assurance'
         },
         {
-          TITLE: '升级直男',
-          URL: 'https://docs.tangly1024.com/article/how-to-update-notionnext'
+          TITLE: '高度定制化',
+          URL: '/Highly_customizable'
         },
         {
-          TITLE: '升级直男',
-          URL: 'https://docs.tangly1024.com/article/how-to-update-notionnext'
+          TITLE: '灵活扩展性',
+          URL: '/Flexible_Scalability'
         },
-        { TITLE: '数据安全保障', URL: '/Data_Security_Assurance' }
+        { TITLE: '卓越性能表现', URL: '/Excellent_performance' }
       ]
     },
     {
@@ -349,13 +349,13 @@ const CONFIG = {
   STARTER_FOOTER_BLOG_LATEST_TITLE: '最新文章',
 
   STARTER_FOOTER_PRIVACY_POLICY_TEXT: '隐私政策',
-  STARTER_FOOTER_PRIVACY_POLICY_URL: '/privacy-policy',
+  STARTER_FOOTER_PRIVACY_POLICY_URL: '/privacy_policy',
 
   STARTER_FOOTER_PRIVACY_LEGAL_NOTICE_TEXT: '法律声明',
-  STARTER_FOOTER_PRIVACY_LEGAL_NOTICE_URL: '/legacy-notice',
+  STARTER_FOOTER_PRIVACY_LEGAL_NOTICE_URL: '/Legal_Notices',
 
   STARTER_FOOTER_PRIVACY_TERMS_OF_SERVICE_TEXT: '服务协议',
-  STARTER_FOOTER_PRIVACY_TERMS_OF_SERVICE_URL: '/terms-of-use',
+  STARTER_FOOTER_PRIVACY_TERMS_OF_SERVICE_URL: '/service_agreement',
 
   // 404页面的提示语
   STARTER_404_TITLE: '我们似乎找不到您要找的页面。',
@@ -363,7 +363,7 @@ const CONFIG = {
   STARTER_404_BACK: '回到主页',
 
   STARTER_POST_REDIRECT_ENABLE: true, // 默認開啟重定向
-  STARTER_POST_REDIRECT_URL: 'https://blog.tangly1024.com', // 重定向域名
+  STARTER_POST_REDIRECT_URL: 'https://Vallengine.com', // 重定向域名
   STARTER_NEWSLETTER: process.env.NEXT_PUBLIC_THEME_STARTER_NEWSLETTER || false // 是否开启邮件订阅 请先配置mailchimp功能 https://docs.tangly1024.com/article/notion-next-mailchimp
 }
 export default CONFIG
