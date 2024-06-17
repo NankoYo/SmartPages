@@ -59,16 +59,16 @@ const CONFIG = {
 
   // 首页ABOUT区块
   STARTER_ABOUT_ENABLE: true, // ABOUT区块开关
-  STARTER_ABOUT_TITLE: '一套轻量实用的建站解决方案',
+  STARTER_ABOUT_TITLE: '云谷引擎（Vallengine）',
   STARTER_ABOUT_TEXT:
-    'NotionNext的愿景是帮助非技术人员的小白，最低成本、最快速地搭建自己的网站，帮助您将自己的产品与故事高效地传达给世界。 <br /> <br /> 功能强大的Notion笔记，简单快速的Vercel托管平台，组成一个简单的网站',
+    '无论您是个人开发者还是大型企业，云谷引擎都能为您提供可靠的云计算解决方案。',
   STARTER_ABOUT_BUTTON_TEXT: '了解更多',
   STARTER_ABOUT_BUTTON_URL: 'https://docs.tangly1024.com/about',
   STARTER_ABOUT_IMAGE_1: '/images/starter/about/about-image-01.jpg',
   STARTER_ABOUT_IMAGE_2: '/images/starter/about/about-image-02.jpg',
-  STARTER_ABOUT_TIPS_1: '7000+',
-  STARTER_ABOUT_TIPS_2: '博客站点',
-  STARTER_ABOUT_TIPS_3: '正在线上运行',
+  STARTER_ABOUT_TIPS_1: '7年',
+  STARTER_ABOUT_TIPS_2: '产品开发',
+  STARTER_ABOUT_TIPS_3: '拥有数年运营经验',
 
   // 首页价格区块
   STARTER_PRICING_ENABLE: false, // 价格区块开关
