@@ -28,10 +28,33 @@ const Footer = ({ title }) => {
             <div id='footer-bottom' className='w-full h-20 flex flex-col p-3 lg:flex-row justify-between px-6 items-center bg-[#f1f3f7] dark:bg-[#30343f]'>
 
                 <div id='footer-bottom-left'>
-                   Copyright © 2023 - 现在 All Rights Reserved. NanKoYo, Inc.
-                </div>
-                <div id='footer-bottom-left'>
-                SmartPage V{siteConfig('VERSION')} | Theme - Heo
+                   Copyright © 2023 - 现在
+                    <a
+                      href='https://nankoyo.com'
+                      rel='nofollow noopner noreferrer'
+                      target='_blank'
+                      className='px-1 text-gray-1 hover:underline'>
+                      NanKoYo,Inc
+                    </a>
+                    All Rights Reserved.
+                    <br />
+                    <a
+                      href='https://nankoyo.com'
+                      rel='nofollow noopner noreferrer'
+                      target='_blank'
+                      className='px-1 text-gray-1 hover:underline'>
+                      SmartPage_v{siteConfig('VERSION')}
+                    </a>
+                     提供云构建服务
+                    <br />
+                    <a
+                      href='https://vallengine.com'
+                      rel='nofollow noopner noreferrer'
+                      target='_blank'
+                      className='px-1 text-gray-1 hover:underline'>
+                      Vallengine_v2.1
+                    </a>
+                    提供云计算服务
                 </div>
             <div id='footer-bottom-right'>
                 {siteConfig('BEI_AN') && <><i className='fas fa-shield-alt' /> <a href='https://beian.miit.gov.cn/' className='mr-2'>{siteConfig('BEI_AN')}</a></>}
