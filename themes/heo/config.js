@@ -1,12 +1,12 @@
 const CONFIG = {
   HEO_HOME_BANNER_ENABLE: true,
 
-  HEO_SITE_CREATE_TIME: '2023-01-01', // 建站日期，用于计算网站运行的第几天
+  HEO_SITE_CREATE_TIME: '2021-09-21', // 建站日期，用于计算网站运行的第几天
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   HEO_NOTICE_BAR: [
-    { title: '欢迎来到我的博客', url: 'https://blog.nankoyo.com' },
-    { title: '', url: '' }
+    { title: '欢迎来到我们的博客', url: 'https://blog.nankoyo.com' },
+    { title: '访问官网获取更多帮助', url: 'https://www.nankoyo.com' }
   ],
 
   // 英雄区左右侧组件颠倒位置
@@ -15,17 +15,17 @@ const CONFIG = {
   HEO_HERO_BODY_REVERSE: true,
 
   // 英雄区(首页顶部大卡)
-  HEO_HERO_TITLE_1: '分享编程',
-  HEO_HERO_TITLE_2: '与思维认知',
-  HEO_HERO_TITLE_3: 'blog.nankoyo.com',
+  HEO_HERO_TITLE_1: 'SmartPage',
+  HEO_HERO_TITLE_2: '创新型页面项目',
+  HEO_HERO_TITLE_3: 'NANKOYO.COM',
   HEO_HERO_TITLE_4: '新版上线',
-  HEO_HERO_TITLE_5: '南酷游博客',
-  HEO_HERO_TITLE_LINK: 'https://blog.nankoyo.com',
+  HEO_HERO_TITLE_5: 'SmartPage 4.6.0 轻松定制主题',
+  HEO_HERO_TITLE_LINK: 'https://nankoyo.com',
 
   // 英雄区显示三个置顶分类
-  HEO_HERO_CATEGORY_1: { title: '日常', url: '/tag/日常' },
-  HEO_HERO_CATEGORY_2: { title: '建站', url: '/tag/建站' },
-  HEO_HERO_CATEGORY_3: { title: '值得一看', url: '/tag/值得一看' },
+  HEO_HERO_CATEGORY_1: { title: '必看精选', url: '/tag/必看精选' },
+  HEO_HERO_CATEGORY_2: { title: '知行合一', url: '/tag/知行合一' },
+  HEO_HERO_CATEGORY_3: { title: '技术分享', url: '/tag/技术分享' },
 
   // 英雄区右侧推荐文章标签, 例如 [推荐] , 最多六篇文章; 若留空白''，则推荐最近更新文章
   HEO_HERO_RECOMMEND_POST_TAG: '推荐',
@@ -34,7 +34,7 @@ const CONFIG = {
 
   // 右侧个人资料卡牌欢迎语，点击可自动切换
   HEO_INFOCARD_GREETINGS: [
-    '你好！我是',
+    '你好！我们是',
     '🔍 分享与热心帮助',
     '🤝 专修交互与设计',
     '🏃 脚踏实地行动派',
@@ -42,16 +42,15 @@ const CONFIG = {
     '🤖️ 数码科技爱好者',
     '🧱 团队小组发动机'
   ],
-  HEO_INFO_CARD_URL: 'https://github.com/NanKoYo', // 个人资料底部按钮链接
 
   // 个人资料底部按钮
   HEO_INFO_CARD_URL1: '/about',
   HEO_INFO_CARD_ICON1: 'fas fa-user',
-  HEO_INFO_CARD_URL2: 'https://github.com/NanKoYo-Inc',
+  HEO_INFO_CARD_URL2: 'https://nankoyo.com/',
   HEO_INFO_CARD_ICON2: 'fab fa-github',
   HEO_INFO_CARD_URL3: 'https://www.nankoyo.com',
   HEO_INFO_CARD_TEXT3: '了解更多',
-  
+
   // 用户技能图标
   HEO_GROUP_ICONS: [
     {
@@ -112,11 +111,11 @@ const CONFIG = {
     }
   ],
 
-  HEO_SOCIAL_CARD: true, // 是否显示右侧，点击加入社群按钮
+  HEO_SOCIAL_CARD: false, // 是否显示右侧，点击加入社群按钮
   HEO_SOCIAL_CARD_TITLE_1: '交流频道',
   HEO_SOCIAL_CARD_TITLE_2: '加入我们的社群讨论分享',
   HEO_SOCIAL_CARD_TITLE_3: '点击加入社群',
-  HEO_SOCIAL_CARD_URL: '#',
+  HEO_SOCIAL_CARD_URL: 'https://docs.tangly1024.com/article/how-to-question',
 
   // *****  以下配置无效，只是预留开发 ****
   // 菜单配置
@@ -129,7 +128,7 @@ const CONFIG = {
   HEO_POST_LIST_COVER: true, // 列表显示文章封面
   HEO_POST_LIST_COVER_HOVER_ENLARGE: false, // 列表鼠标悬停放大
 
-  HEO_POST_LIST_COVER_DEFAULT: true, // 封面为空时用站点背景做默认封面
+  HEO_POST_LIST_COVER_DEFAULT: false, // 封面为空时用站点背景做默认封面
   HEO_POST_LIST_SUMMARY: true, // 文章摘要
   HEO_POST_LIST_PREVIEW: true, // 读取文章预览
   HEO_POST_LIST_IMG_CROSSOVER: true, // 博客列表图片左右交错
