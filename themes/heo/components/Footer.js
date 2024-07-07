@@ -45,8 +45,7 @@ const Footer = ({ title }) => {
                       className='px-1 text-gray-1 hover:underline'>
                       SmartPage_v{siteConfig('VERSION')}
                     </a>
-                     提供云构建服务
-                    <br />
+                    & 
                     <a
                       href='https://vallengine.com'
                       rel='nofollow noopner noreferrer'
@@ -54,7 +53,7 @@ const Footer = ({ title }) => {
                       className='px-1 text-gray-1 hover:underline'>
                       Vallengine_v2.1
                     </a>
-                    提供云计算服务
+                    提供 计算&构建 服务
                 </div>
             <div id='footer-bottom-right'>
                 {siteConfig('BEI_AN') && <><i className='fas fa-shield-alt' /> <a href='https://beian.miit.gov.cn/' className='mr-2'>{siteConfig('BEI_AN')}</a></>}
