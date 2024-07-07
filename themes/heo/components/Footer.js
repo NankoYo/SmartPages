@@ -52,7 +52,7 @@ const Footer = ({ title }) => {
                       rel='nofollow noopner noreferrer'
                       target='_blank'
                       className='px-1 text-gray-1 hover:underline'>
-                      Vallengine_v2.1
+                      Vallengine_v2.1.2
                     </a>
                     强力驱动.
                 </div>
