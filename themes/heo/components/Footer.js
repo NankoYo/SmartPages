@@ -38,6 +38,7 @@ const Footer = ({ title }) => {
                     </a>
                     All Rights Reserved.
                     <br />
+                    由 
                     <a
                       href='https://nankoyo.com'
                       rel='nofollow noopner noreferrer'
@@ -53,7 +54,7 @@ const Footer = ({ title }) => {
                       className='px-1 text-gray-1 hover:underline'>
                       Vallengine_v2.1
                     </a>
-                    提供 计算&构建 服务
+                    强力驱动.
                 </div>
             <div id='footer-bottom-right'>
                 {siteConfig('BEI_AN') && <><i className='fas fa-shield-alt' /> <a href='https://beian.miit.gov.cn/' className='mr-2'>{siteConfig('BEI_AN')}</a></>}
