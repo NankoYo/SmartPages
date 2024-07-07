@@ -156,6 +156,7 @@ export const Footer = props => {
                     </a>
                     All Rights Reserved.
                     <br />
+                    由 
                     <a
                       href='https://nankoyo.com'
                       rel='nofollow noopner noreferrer'
@@ -171,7 +172,7 @@ export const Footer = props => {
                       className='px-1 text-gray-1 hover:underline'>
                       Vallengine_v2.1.2
                     </a>
-                     提供云计算 & 云构建服务
+                     强力驱动.
                   </p>
                 </div>
               </div>
