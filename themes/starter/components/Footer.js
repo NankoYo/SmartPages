@@ -163,7 +163,6 @@ export const Footer = props => {
                       className='px-1 text-gray-1 hover:underline'>
                       SmartPage_v{siteConfig('VERSION')}
                     </a>
-                      提供云构建服务
                      & 
                     <a
                       href='https://vallengine.com'
@@ -172,7 +171,7 @@ export const Footer = props => {
                       className='px-1 text-gray-1 hover:underline'>
                       Vallengine_v2.1.2
                     </a>
-                     提供云计算服务
+                     提供云计算 & 云构建服务
                   </p>
                 </div>
               </div>
