@@ -196,8 +196,8 @@ const CONFIG = {
 
   // 团队成员区块
   STARTER_TEAM_ENABLE: true, // 团队成员区块开关
-  STARTER_TEAM_TITLE: '团队成员',
-  STARTER_TEAM_TEXT_1: '我们的开发者团队',
+  STARTER_TEAM_TITLE: 'Team Members',
+  STARTER_TEAM_TEXT_1: 'Our Technical Team',
   STARTER_TEAM_TEXT_2:
     'The NanKoYo developer team is a passionate and creative team dedicated to developing innovative static website generators.They specialize in providing easy-to-use, efficient and reliable tools that help users quickly build high-performance static websites.',
 
