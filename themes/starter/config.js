@@ -119,7 +119,7 @@ const CONFIG = {
   STARTER_TESTIMONIALS_ITEMS: [
     {
       STARTER_TESTIMONIALS_ITEM_TEXT:
-        'SmartPage is truly a godsend, easy to use and saves me tons of time!',
+        'SmartPage is truly a godsend easy to use and saves me tons of time!',
       STARTER_TESTIMONIALS_ITEM_AVATAR:
         'https://cdn.nankoyo.com/public/cache/star/images/testimonials/author-01.png',
       STARTER_TESTIMONIALS_ITEM_NICKNAME: 'Alice Wang',
@@ -128,7 +128,7 @@ const CONFIG = {
     },
     {
       STARTER_TESTIMONIALS_ITEM_TEXT:
-        'SmartPage is one of the easiest and most effective tools I've ever used and has greatly improved my productivity!',
+        'SmartPage is one of the easiest and most effective tools Iove ever used and has greatly improved my productivity!',
       STARTER_TESTIMONIALS_ITEM_AVATAR:
         'https://cdn.nankoyo.com/public/cache/star/images/testimonials/author-02.png',
       STARTER_TESTIMONIALS_ITEM_NICKNAME: 'Michael Smith',
