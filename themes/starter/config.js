@@ -369,7 +369,7 @@ const CONFIG = {
     }
   ],
 
-  STARTER_FOOTER_SLOGAN: 'SmartPage是一个创新性的网页项目，旨在为用户提供一种简单而强大的方式来创建静态网站。通过结合自然语言处理和图形学技术，NankoYo能够从用户提供的简单文本描述中生成复杂的网页布局和设计。这个项目的目标是让网站创建变得更加容易和直观，使任何人都能够在没有编程知识的情况下设计出令人印象深刻的网站。SmartPage将用户的创意转化为现实，为他们带来了全新的网页开发体验。',
+  STARTER_FOOTER_SLOGAN: 'SmartPage is an innovative web project designed to provide users with a simple yet powerful way to create static websites.By combining natural language processing and graphics technologies, NankoYo is able to generate complex web page layouts and designs from simple text descriptions provided by the user.The goal of this project is to make website creation easier and more intuitive enabling anyone to design impressive websites without programming knowledge.SmartPage brings users creativity to life, giving them a whole new experience in web development.',
 
   // 页脚三列菜单组
   STARTER_FOOTER_LINK_GROUP: [
