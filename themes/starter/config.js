@@ -11,7 +11,7 @@ const CONFIG = {
   // 英雄区块导航
   STARTER_HERO_ENABLE: true, // 开启英雄区
   STARTER_HERO_TITLE_1: 'SmartPage', // 英雄区文字
-  STARTER_HERO_TITLE_2: 'SmartPage是一个创新性的网页项目，旨在为用户提供一种简单而强大的方式来创建静态网站。通过结合自然语言处理和图形学技术，NankoYo能够从用户提供的简单文本描述中生成复杂的网页布局和设计。这个项目的目标是让网站创建变得更加容易和直观，使任何人都能够在没有编程知识的情况下设计出令人印象深刻的网站。SmartPage将用户的创意转化为现实，为他们带来了全新的网页开发体验。', // 英雄区文字
+  STARTER_HERO_TITLE_2: 'SmartPage is an innovative web project, aiming to provide users with a simple but powerful way to create static websites. By combining natural language processing and graphics technology, NankoYo is able to generate complex web page layouts and designs from the simple text descriptions provided by users.', // 英雄区文字
   // 英雄区两个按钮，如果TEXT留空则隐藏按钮
   STARTER_HERO_BUTTON_1_TEXT: '', // 英雄区按钮
   STARTER_HERO_BUTTON_1_URL:'', // 英雄区按钮
@@ -30,176 +30,176 @@ const CONFIG = {
 
   // 特性区块
   STARTER_FEATURE_ENABLE: true, // 特性区块开关
-  STARTER_FEATURE_TITLE: '特性', // 特性
-  STARTER_FEATURE_TEXT_1: '主要特性', // 特性
+  STARTER_FEATURE_TITLE: 'characteristic', // 特性
+  STARTER_FEATURE_TEXT_1: 'Key Features', // 特性
   STARTER_FEATURE_TEXT_2:
-    '利用自然语言处理和图形学技术，轻松创建个性化静态网站。', // 特性
+    'Easily create personalized static websites using natural language processing and graphics techniques.', // 特性
 
-  STARTER_FEATURE_1_TITLE_1: '自然语言处理技术', // 特性1
-  STARTER_FEATURE_1_TEXT_1: '通过自然语言理解，将用户描述转化为网页设计。', // 特性1
-  STARTER_FEATURE_1_BUTTON_TEXT: '了解更多', // 特性1
+  STARTER_FEATURE_1_TITLE_1: 'Natural language processing techniques', // 特性1
+  STARTER_FEATURE_1_TEXT_1: 'Translating user descriptions into web design through natural language understanding。', // 特性1
+  STARTER_FEATURE_1_BUTTON_TEXT: 'Learn more', // 特性1
   STARTER_FEATURE_1_BUTTON_URL: 'https://nankoyo.com/feature-1', // 特性1
 
-  STARTER_FEATURE_2_TITLE_1: '图形学技术支持', // 特性2
-  STARTER_FEATURE_2_TEXT_1: '利用先进的图形学技术创建精美的网页布局和设计。', // 特性2
-  STARTER_FEATURE_2_BUTTON_TEXT: '了解更多', // 特性2
+  STARTER_FEATURE_2_TITLE_1: 'Graphics technology', // 特性2
+  STARTER_FEATURE_2_TEXT_1: 'Create beautiful web page layouts and designs using advanced graphics techniques.', // 特性2
+  STARTER_FEATURE_2_BUTTON_TEXT: 'Learn more', // 特性2
   STARTER_FEATURE_2_BUTTON_URL:
     'https://nankoyo.com/feature-2', // 特性2
 
-  STARTER_FEATURE_3_TITLE_1: '简单易用的界面', // 特性3
-  STARTER_FEATURE_3_TEXT_1: '提供直观简单的界面，使用户轻松创建网站，无需编程知识。', // 特性3
-  STARTER_FEATURE_3_BUTTON_TEXT: '了解更多', // 特性3
+  STARTER_FEATURE_3_TITLE_1: 'Easy-to-use interface', // 特性3
+  STARTER_FEATURE_3_TEXT_1: 'Provides an intuitive and simple interface that makes it easy for users to create websites without programming knowledge.', // 特性3
+  STARTER_FEATURE_3_BUTTON_TEXT: 'Learn more', // 特性3
   STARTER_FEATURE_3_BUTTON_URL: 'https://nankoyo.com/feature-3', // 特性3
 
-  STARTER_FEATURE_4_TITLE_1: '完全自定义的选项', // 特性4
-  STARTER_FEATURE_4_TEXT_1: '允许用户根据需求定制和调整生成的网页，实现个性化设计。', // 特性4
-  STARTER_FEATURE_4_BUTTON_TEXT: '了解更多', // 特性4
+  STARTER_FEATURE_4_TITLE_1: 'Fully customizable options', // 特性4
+  STARTER_FEATURE_4_TEXT_1: 'Allows users to customize and adjust the generated web pages according to their needs, enabling personalized design.', // 特性4
+  STARTER_FEATURE_4_BUTTON_TEXT: 'Learn more', // 特性4
   STARTER_FEATURE_4_BUTTON_URL: 'https://nankoyo.com/feature-4', // 特性4
 
   // 首页ABOUT区块
   STARTER_ABOUT_ENABLE: true, // ABOUT区块开关
-  STARTER_ABOUT_TITLE: '一套轻量实用的建站解决方案',
+  STARTER_ABOUT_TITLE: 'A lightweight and practical solution for building websites',
   STARTER_ABOUT_TEXT:
-    'SmartPage是一款简单而强大的网页生成器，旨在让任何人都能轻松创建出令人印象深刻的网站，无需编程知识。<br /> <br />我们结合了自然语言处理和图形学技术，为用户提供了直观、灵活的网页设计体验。无论您是个人用户还是企业客户，NanKoYo都能满足您的需求，让网页设计变得简单、直观和创意。',
-  STARTER_ABOUT_BUTTON_TEXT: '了解更多',
+    'SmartPage is a simple yet powerful web page generator designed to make it easy for anyone to create impressive websites without programming knowledge.<br /> <br />We combine natural language processing and graphics technology to provide users with an intuitive and flexible web design experience.Whether you are an individual user or a corporate client, NanKoYo can meet your needs and make web design easy, intuitive and creative.',
+  STARTER_ABOUT_BUTTON_TEXT: 'Learn more',
   STARTER_ABOUT_BUTTON_URL: '/about',
   STARTER_ABOUT_IMAGE_1: 'https://cdn.nankoyo.com/public/cache/star/images/about/about-image-01.jpg',
   STARTER_ABOUT_IMAGE_2: 'https://cdn.nankoyo.com/public/cache/star/images/about/about-image-02.jpg',
   STARTER_ABOUT_TIPS_1: '100,000＋',
-  STARTER_ABOUT_TIPS_2: '终端客户',
-  STARTER_ABOUT_TIPS_3: '正在使用我们的产品',
+  STARTER_ABOUT_TIPS_2: 'end customer',
+  STARTER_ABOUT_TIPS_3: 'Using our products',
 
   // 首页价格区块
   STARTER_PRICING_ENABLE: true, // 价格区块开关
-  STARTER_PRICING_TITLE: '价格表',
-  STARTER_PRICING_TEXT_1: '很棒的定价计划',
+  STARTER_PRICING_TITLE: 'price list',
+  STARTER_PRICING_TEXT_1: 'Great pricing plan.',
   STARTER_PRICING_TEXT_2:
-    '我们制定了灵活的付费模式，您可以按需选择。',
+    'We have developed a flexible payment model that you can choose from on demand.',
 
-  STARTER_PRICING_1_TITLE: '基础套餐',
+  STARTER_PRICING_1_TITLE: 'Basic Package',
   STARTER_PRICING_1_PRICE: '99',
-  STARTER_PRICING_1_PRICE_CURRENCY: '¥',
-  STARTER_PRICING_1_PRICE_PERIOD: '每年',
-  STARTER_PRICING_1_HEADER: '功能点',
-  STARTER_PRICING_1_FEATURES: '适用于个人用户或小型团队,自然语言处理技术,基本图形学技术支持,简单易用的界面,1个自定义域名,基本技术支持', // 英文逗号隔开
-  STARTER_PRICING_1_BUTTON_TEXT: '立即购买',
+  STARTER_PRICING_1_PRICE_CURRENCY: '$',
+  STARTER_PRICING_1_PRICE_PERIOD: 'year',
+  STARTER_PRICING_1_HEADER: 'function point',
+  STARTER_PRICING_1_FEATURES: 'Suitable for individual users or small teams, natural language processing technology, basic graphical support, easy-to-use interface, 1 customized domain name, basic technical support', // 英文逗号隔开
+  STARTER_PRICING_1_BUTTON_TEXT: 'Buy Now',
   STARTER_PRICING_1_BUTTON_URL:
     'https://qm.qq.com/q/hawob9Eyw8',
 
-  STARTER_PRICING_2_TAG: '推荐',
-  STARTER_PRICING_2_TITLE: '专业套餐',
+  STARTER_PRICING_2_TAG: 'testimonials',
+  STARTER_PRICING_2_TITLE: 'Professional Package',
   STARTER_PRICING_2_PRICE: '199',
-  STARTER_PRICING_2_PRICE_CURRENCY: '¥',
-  STARTER_PRICING_2_PRICE_PERIOD: '每年',
-  STARTER_PRICING_2_HEADER: '功能点',
-  STARTER_PRICING_2_FEATURES: '适用于中小型企业或创业者,自然语言处理技术,全面的图形学技术支持,简单易用的界面,3个自定义域名,定制化选项,优先技术支持', // 英文逗号隔开
-  STARTER_PRICING_2_BUTTON_TEXT: '立即购买',
+  STARTER_PRICING_2_PRICE_CURRENCY: '$',
+  STARTER_PRICING_2_PRICE_PERIOD: 'year',
+  STARTER_PRICING_2_HEADER: 'function point',
+  STARTER_PRICING_2_FEATURES: 'Ideal for small to medium sized businesses or entrepreneurs, natural language processing technology, full graphical tech support, easy to use interface, 3 custom domains, customization options, priority tech support', // 英文逗号隔开
+  STARTER_PRICING_2_BUTTON_TEXT: 'Buy Now',
   STARTER_PRICING_2_BUTTON_URL:
     'https://qm.qq.com/q/hawob9Eyw8',
 
-  STARTER_PRICING_3_TITLE: '企业套餐',
+  STARTER_PRICING_3_TITLE: 'Corporate Packages',
   STARTER_PRICING_3_PRICE: '499',
-  STARTER_PRICING_3_PRICE_CURRENCY: '¥',
-  STARTER_PRICING_3_PRICE_PERIOD: '每年',
-  STARTER_PRICING_3_HEADER: '功能点',
-  STARTER_PRICING_3_FEATURES: '适用于大型企业或需要高级定制的用户,自然语言处理技术,全面的图形学技术支持,简单易用的界面,无限自定义域名,定制化选项,24/7优先技术支持,SLA服务水平协议', // 英文逗号隔开
-  STARTER_PRICING_3_BUTTON_TEXT: '立即购买',
+  STARTER_PRICING_3_PRICE_CURRENCY: '$',
+  STARTER_PRICING_3_PRICE_PERIOD: 'year',
+  STARTER_PRICING_3_HEADER: 'function point',
+  STARTER_PRICING_3_FEATURES: 'Ideal for large enterprises or users requiring advanced customization, natural language processing technology, full graphical technical support, easy-to-use interface, unlimited customizable domain names, customization options, 24/7 priority technical support, SLA service level agreements', // 英文逗号隔开
+  STARTER_PRICING_3_BUTTON_TEXT: 'Buy Now',
   STARTER_PRICING_3_BUTTON_URL:
     'https://qm.qq.com/q/hawob9Eyw8',
 
   // 首页用户测评区块
   STARTER_TESTIMONIALS_ENABLE: true, // 测评区块开关
-  STARTER_TESTIMONIALS_TITLE: '用户反馈',
-  STARTER_TESTIMONIALS_TEXT_1: '我们的用户怎么说',
+  STARTER_TESTIMONIALS_TITLE: 'User feedback',
+  STARTER_TESTIMONIALS_TEXT_1: 'What our users say',
   STARTER_TESTIMONIALS_TEXT_2:
-    '倾听您的声音，打造更好的明天',
+    'Listening to you to build a better tomorrow',
   STARTER_TESTIMONIALS_STAR_ICON: '/images/starter/testimonials/icon-star.svg', // 评分图标
 
   // 这里不支持CONFIG和环境变量，需要一一修改此处代码。
   STARTER_TESTIMONIALS_ITEMS: [
     {
       STARTER_TESTIMONIALS_ITEM_TEXT:
-        'SmartPage确实是个神器，简单易用，帮我节省了大量时间！',
+        'SmartPage is truly a godsend, easy to use and saves me tons of time!',
       STARTER_TESTIMONIALS_ITEM_AVATAR:
         'https://cdn.nankoyo.com/public/cache/star/images/testimonials/author-01.png',
       STARTER_TESTIMONIALS_ITEM_NICKNAME: 'Alice Wang',
-      STARTER_TESTIMONIALS_ITEM_DESCRIPTION: '产品经理',
+      STARTER_TESTIMONIALS_ITEM_DESCRIPTION: 'product manager',
       STARTER_TESTIMONIALS_ITEM_URL: '/'
     },
     {
       STARTER_TESTIMONIALS_ITEM_TEXT:
-        'SmartPage是我使用过的最简单、最有效的工具之一，极大地提升了我的工作效率！！',
+        'SmartPage is one of the easiest and most effective tools I've ever used and has greatly improved my productivity!',
       STARTER_TESTIMONIALS_ITEM_AVATAR:
         'https://cdn.nankoyo.com/public/cache/star/images/testimonials/author-02.png',
       STARTER_TESTIMONIALS_ITEM_NICKNAME: 'Michael Smith',
-      STARTER_TESTIMONIALS_ITEM_DESCRIPTION: '网站管理员',
+      STARTER_TESTIMONIALS_ITEM_DESCRIPTION: 'webmaster',
       STARTER_TESTIMONIALS_ITEM_URL: '/'
     },
     {
       STARTER_TESTIMONIALS_ITEM_TEXT:
-        'SmartPage的稳定性和可靠性让我无需担心网站崩溃或数据丢失，十分放心！',
+        'The stability and reliability of SmartPage gives me peace of mind without having to worry about website crashes or data loss!',
       STARTER_TESTIMONIALS_ITEM_AVATAR:
         'https://cdn.nankoyo.com/public/cache/star/images/testimonials/author-03.png',
       STARTER_TESTIMONIALS_ITEM_NICKNAME: 'Emily Johnson',
-      STARTER_TESTIMONIALS_ITEM_DESCRIPTION: '网站开发者',
+      STARTER_TESTIMONIALS_ITEM_DESCRIPTION: 'Web Developer',
       STARTER_TESTIMONIALS_ITEM_URL: '/'
     },
     {
       STARTER_TESTIMONIALS_ITEM_TEXT:
-        'SmartPage的团队服务态度非常好，对于我的疑问和需求都能及时回复和解决，让我感到非常满意和放心！',
+        'The team at SmartPage has been very helpful, responding and addressing my questions and needs in a timely manner, making me feel very satisfied and at ease!',
       STARTER_TESTIMONIALS_ITEM_AVATAR:
         'https://cdn.nankoyo.com/public/cache/star/images/testimonials/author-04.png',
       STARTER_TESTIMONIALS_ITEM_NICKNAME: 'David Brown',
-      STARTER_TESTIMONIALS_ITEM_DESCRIPTION: '系统管理员',
+      STARTER_TESTIMONIALS_ITEM_DESCRIPTION: 'system administrator',
       STARTER_TESTIMONIALS_ITEM_URL: '/'
     },
     {
       STARTER_TESTIMONIALS_ITEM_TEXT:
-        'SmartPage的用户反馈展示功能帮助我更好地了解用户需求，为产品改进提供了宝贵意见！ ',
+        'SmartPage user feedback display feature has helped me better understand user needs and provided valuable input for product improvement! ',
       STARTER_TESTIMONIALS_ITEM_AVATAR:
         'https://cdn.nankoyo.com/public/cache/star/images/testimonials/author-05.png',
       STARTER_TESTIMONIALS_ITEM_NICKNAME: 'Sarah Wilson',
-      STARTER_TESTIMONIALS_ITEM_DESCRIPTION: '市场分析师',
+      STARTER_TESTIMONIALS_ITEM_DESCRIPTION: 'market analyst',
       STARTER_TESTIMONIALS_ITEM_URL: '/'
     },
     {
-      STARTER_TESTIMONIALS_ITEM_TEXT: '我对SmartPage的用户反馈展示功能赞不绝口，它让我能够更直观地了解用户的需求和意见，为产品改进提供了重要参考！',
+      STARTER_TESTIMONIALS_ITEM_TEXT: 'I cant say enough about SmartPages User Feedback Showcase, which allows me to visualize users needs and opinions and provides an important reference for product improvement!',
       STARTER_TESTIMONIALS_ITEM_AVATAR:
         'https://cdn.nankoyo.com/public/cache/star/images/testimonials/author-06.png',
       STARTER_TESTIMONIALS_ITEM_NICKNAME: 'John Lee',
-      STARTER_TESTIMONIALS_ITEM_DESCRIPTION: '项目经理',
+      STARTER_TESTIMONIALS_ITEM_DESCRIPTION: 'project manager',
       STARTER_TESTIMONIALS_ITEM_URL: '/'
     }
   ],
 
   //   FAQ 常见问题模块
   STARTER_FAQ_ENABLE: true, // 常见问题模块开关
-  STARTER_FAQ_TITLE: '常见问题解答',
-  STARTER_FAQ_TEXT_1: '有任何问题吗？请看这里',
-  STARTER_FAQ_TEXT_2: '我们收集了常见的用户疑问',
+  STARTER_FAQ_TITLE: 'Frequently Asked Questions',
+  STARTER_FAQ_TEXT_1: 'Have any questions?Check here.',
+  STARTER_FAQ_TEXT_2: 'We have collected common user queries',
 
-  STARTER_FAQ_1_QUESTION: 'SmartPage是什么？',
+  STARTER_FAQ_1_QUESTION: 'What is SmartPage?',
   STARTER_FAQ_1_ANSWER:
-    'SmartPage是一个用于创建静态网站的工具，它可以将网站内容转换为纯HTML、CSS和JavaScript文件，以提高网站加载速度和安全性。',
+    'SmartPage is a tool for creating static websites that converts website content into plain HTML, CSS and JavaScript files to improve website loading speed and security.',
 
-  STARTER_FAQ_2_QUESTION: 'SmartPage与动态网站有何不同？',
+  STARTER_FAQ_2_QUESTION: 'How is SmartPage different from a dynamic website?',
   STARTER_FAQ_2_ANSWER:
-    '与动态网站相比，SmartPage生成的网站不需要在每次请求时动态生成内容，而是在构建时就生成所有页面。这样可以减少服务器负载和提高网站性能。',
+    'Instead of dynamically generating content on every request, SmartPage-generated sites generate all pages at build time, as opposed to dynamic sites.This reduces server load and improves site performance.',
 
-  STARTER_FAQ_3_QUESTION: 'SmartPage适用于哪些类型的网站？',
+  STARTER_FAQ_3_QUESTION: 'What types of websites is SmartPage suitable for?',
   STARTER_FAQ_3_ANSWER:
-    'SmartPage适用于许多类型的网站，特别是对于内容不经常更新或不需要动态交互的网站，例如博客、文档站点和企业官方网站等。',
+    'SmartPage is suitable for many types of websites, especially for sites with infrequently updated content or sites that do not require dynamic interaction, such as blogs, document sites and official corporate websites.',
 
-  STARTER_FAQ_4_QUESTION: 'SmartPage的优势有哪些？',
+  STARTER_FAQ_4_QUESTION: 'What are the benefits of SmartPage?',
   STARTER_FAQ_4_ANSWER:
-    'SmartPage具有诸多优势，包括更快的页面加载速度、更低的服务器成本、更好的安全性和更简单的部署过程。此外，它还能够更好地应对高流量和DDoS攻击等挑战。',
+    'SmartPage offers a number of advantages, including faster page loads, lower server costs, better security, and a simpler deployment process.In addition, it is better able to handle challenges such as high traffic and DDoS attacks.',
 
   // 团队成员区块
   STARTER_TEAM_ENABLE: true, // 团队成员区块开关
   STARTER_TEAM_TITLE: '团队成员',
   STARTER_TEAM_TEXT_1: '我们的开发者团队',
   STARTER_TEAM_TEXT_2:
-    'NanKoYo开发者团队是一支充满激情和创造力的团队，致力于开发创新的静态网站生成器。他们专注于提供简单易用、高效可靠的工具，帮助用户快速构建高性能的静态网站。',
+    'The NanKoYo developer team is a passionate and creative team dedicated to developing innovative static website generators.They specialize in providing easy-to-use, efficient and reliable tools that help users quickly build high-performance static websites.',
 
   // 这里不支持CONFIG和环境变量，需要一一修改此处代码。
   STARTER_TEAM_ITEMS: [
@@ -207,120 +207,120 @@ const CONFIG = {
       STARTER_TEAM_ITEM_AVATAR:
         'https://cdn.nankoyo.com/public/cache/star/images/team/team-01.png',
       STARTER_TEAM_ITEM_NICKNAME: 'Emily Zhang',
-      STARTER_TEAM_ITEM_DESCRIPTION: '数据分析师'
+      STARTER_TEAM_ITEM_DESCRIPTION: 'Data Analyst'
     },
     {
       STARTER_TEAM_ITEM_AVATAR: 'https://cdn.nankoyo.com/public/cache/star/images/team/team-02.png',
       STARTER_TEAM_ITEM_NICKNAME: 'Andrew Li',
-      STARTER_TEAM_ITEM_DESCRIPTION: '网页设计师'
+      STARTER_TEAM_ITEM_DESCRIPTION: 'web designer'
     },
     {
       STARTER_TEAM_ITEM_AVATAR: 'https://cdn.nankoyo.com/public/cache/star/images/team/team-03.png',
       STARTER_TEAM_ITEM_NICKNAME: 'Jason Liu',
-      STARTER_TEAM_ITEM_DESCRIPTION: '软件工程师'
+      STARTER_TEAM_ITEM_DESCRIPTION: 'software engineer'
     },
     {
       STARTER_TEAM_ITEM_AVATAR: 'https://cdn.nankoyo.com/public/cache/star/images/team/team-04.png',
       STARTER_TEAM_ITEM_NICKNAME: 'Sophia Chen',
-      STARTER_TEAM_ITEM_DESCRIPTION: '用户体验设计师'
+      STARTER_TEAM_ITEM_DESCRIPTION: 'User Experience Designer'
     },
     {
       STARTER_TEAM_ITEM_AVATAR: 'https://cdn.nankoyo.com/public/cache/star/images/team/team-05.png',
       STARTER_TEAM_ITEM_NICKNAME: 'Kevin Wang',
-      STARTER_TEAM_ITEM_DESCRIPTION: '前端开发工程师'
+      STARTER_TEAM_ITEM_DESCRIPTION: 'Front-end Development Engineer'
     },
     {
       STARTER_TEAM_ITEM_AVATAR: 'https://cdn.nankoyo.com/public/cache/star/images/team/team-06.png',
       STARTER_TEAM_ITEM_NICKNAME: 'Jessica Wu',
-      STARTER_TEAM_ITEM_DESCRIPTION: '后端开发工程师'
+      STARTER_TEAM_ITEM_DESCRIPTION: 'Backend Development Engineer'
     },
     {
       STARTER_TEAM_ITEM_AVATAR: 'https://cdn.nankoyo.com/public/cache/star/images/team/team-07.png',
       STARTER_TEAM_ITEM_NICKNAME: 'Brian Zhao',
-      STARTER_TEAM_ITEM_DESCRIPTION: '移动应用设计师'
+      STARTER_TEAM_ITEM_DESCRIPTION: 'Mobile Application Designer'
     },
     {
       STARTER_TEAM_ITEM_AVATAR: 'https://cdn.nankoyo.com/public/cache/star/images/team/team-08.png',
       STARTER_TEAM_ITEM_NICKNAME: 'Alice Wang',
-      STARTER_TEAM_ITEM_DESCRIPTION: 'UI/UX 设计师'
+      STARTER_TEAM_ITEM_DESCRIPTION: 'UI/UX Designer'
     },
     {
       STARTER_TEAM_ITEM_AVATAR: 'https://cdn.nankoyo.com/public/cache/star/images/team/team-09.png',
       STARTER_TEAM_ITEM_NICKNAME: 'Daniel Lee',
-      STARTER_TEAM_ITEM_DESCRIPTION: '数据库管理员'
+      STARTER_TEAM_ITEM_DESCRIPTION: 'Database Administrator'
     },
     {
       STARTER_TEAM_ITEM_AVATAR: 'https://cdn.nankoyo.com/public/cache/star/images/team/team-10.png',
       STARTER_TEAM_ITEM_NICKNAME: 'Angela Xu',
-      STARTER_TEAM_ITEM_DESCRIPTION: '系统架构师'
+      STARTER_TEAM_ITEM_DESCRIPTION: 'system architect'
     },
     {
       STARTER_TEAM_ITEM_AVATAR: 'https://cdn.nankoyo.com/public/cache/star/images/team/team-11.png',
       STARTER_TEAM_ITEM_NICKNAME: 'Steven Chen',
-      STARTER_TEAM_ITEM_DESCRIPTION: '网络安全专家'
+      STARTER_TEAM_ITEM_DESCRIPTION: 'Network Security Specialist'
     },
     {
       STARTER_TEAM_ITEM_AVATAR: 'https://cdn.nankoyo.com/public/cache/star/images/team/team-12.png',
       STARTER_TEAM_ITEM_NICKNAME: 'Cindy Zhou',
-      STARTER_TEAM_ITEM_DESCRIPTION: '自然语言处理工程师'
+      STARTER_TEAM_ITEM_DESCRIPTION: 'Natural Language Processing Engineer'
     },
     {
       STARTER_TEAM_ITEM_AVATAR: 'https://cdn.nankoyo.com/public/cache/star/images/team/team-13.png',
       STARTER_TEAM_ITEM_NICKNAME: 'Eric Huang',
-      STARTER_TEAM_ITEM_DESCRIPTION: '人工智能工程师'
+      STARTER_TEAM_ITEM_DESCRIPTION: 'Artificial Intelligence Engineer'
     },
     {
       STARTER_TEAM_ITEM_AVATAR: 'https://cdn.nankoyo.com/public/cache/star/images/team/team-14.png',
       STARTER_TEAM_ITEM_NICKNAME: 'Michelle Liu',
-      STARTER_TEAM_ITEM_DESCRIPTION: '质量保证工程师'
+      STARTER_TEAM_ITEM_DESCRIPTION: 'Quality Assurance Engineer'
     },
     {
       STARTER_TEAM_ITEM_AVATAR: 'https://cdn.nankoyo.com/public/cache/star/images/team/team-15.png',
       STARTER_TEAM_ITEM_NICKNAME: 'Tony Guo',
-      STARTER_TEAM_ITEM_DESCRIPTION: '项目经理'
+      STARTER_TEAM_ITEM_DESCRIPTION: 'project manager'
     },
     {
       STARTER_TEAM_ITEM_AVATAR: 'https://cdn.nankoyo.com/public/cache/star/images/team/team-16.png',
       STARTER_TEAM_ITEM_NICKNAME: 'Grace Lin',
-      STARTER_TEAM_ITEM_DESCRIPTION: '网站管理员'
+      STARTER_TEAM_ITEM_DESCRIPTION: 'webmaster'
     },
     {
       STARTER_TEAM_ITEM_AVATAR: 'https://cdn.nankoyo.com/public/cache/star/images/team/team-17.png',
       STARTER_TEAM_ITEM_NICKNAME: 'Michael Zhang',
-      STARTER_TEAM_ITEM_DESCRIPTION: '数据科学家'
+      STARTER_TEAM_ITEM_DESCRIPTION: 'data scientist'
     },
     {
       STARTER_TEAM_ITEM_AVATAR: 'https://cdn.nankoyo.com/public/cache/star/images/team/team-18.png',
       STARTER_TEAM_ITEM_NICKNAME: 'Jennifer Wang',
-      STARTER_TEAM_ITEM_DESCRIPTION: '云计算工程师'
+      STARTER_TEAM_ITEM_DESCRIPTION: 'Cloud Computing Engineer'
     },
     {
       STARTER_TEAM_ITEM_AVATAR: 'https://cdn.nankoyo.com/public/cache/star/images/team/team-19.png',
       STARTER_TEAM_ITEM_NICKNAME: 'Alex Wu',
-      STARTER_TEAM_ITEM_DESCRIPTION: '前端设计师'
+      STARTER_TEAM_ITEM_DESCRIPTION: 'front-end designer'
     },
     {
       STARTER_TEAM_ITEM_AVATAR: 'https://cdn.nankoyo.com/public/cache/star/images/team/team-20.png',
       STARTER_TEAM_ITEM_NICKNAME: 'Lucy Chen',
-      STARTER_TEAM_ITEM_DESCRIPTION: '软件测试工程师'
+      STARTER_TEAM_ITEM_DESCRIPTION: 'Software Test Engineer'
     }
   ],
 
   // 博客文章区块
   STARTER_BLOG_ENABLE: true, // 首页博文区块开关
-  STARTER_BLOG_TITLE: '我们的博客',
+  STARTER_BLOG_TITLE: 'Our Blog',
   STARTER_BLOG_COUNT: 5, // 首页博文区块默认展示前3篇文章
-  STARTER_BLOG_TEXT_1: '最近的新闻',
+  STARTER_BLOG_TEXT_1: 'Recent News',
   STARTER_BLOG_TEXT_2:
-    '这里会发布一些关于NanKoYo的最新动态，包括新的动向、新的未来计划，以及新功能的特性',
+    'Some of the latest news about NanKoYo will be posted here, including new movements, new future plans, and features of new functionality',
 
   // 联系模块
   STARTER_CONTACT_ENABLE: true, // 联系模块开关
-  STARTER_CONTACT_TITLE: '联系我们',
-  STARTER_CONTACT_TEXT: '告诉我们您遇到的问题',
-  STARTER_CONTACT_LOCATION_TITLE: '我们的位置',
+  STARTER_CONTACT_TITLE: 'Contact Us',
+  STARTER_CONTACT_TEXT: 'Tell us about the problem you are experiencing',
+  STARTER_CONTACT_LOCATION_TITLE: 'Our Location',
   STARTER_CONTACT_LOCATION_TEXT: 'China，Hongkong',
-  STARTER_CONTACT_EMAIL_TITLE: '我们如何帮助您？',
+  STARTER_CONTACT_EMAIL_TITLE: 'How can we help you?',
   STARTER_CONTACT_EMAIL_TEXT: 'mail@nankoyo.com',
 
   // 嵌入外部表单
@@ -374,52 +374,52 @@ const CONFIG = {
   // 页脚三列菜单组
   STARTER_FOOTER_LINK_GROUP: [
     {
-      TITLE: '关注我们',
+      TITLE: 'Contact Us',
       LINK_GROUP: [
-        { TITLE:'微信公众号', URL: 'https://html.nankoyo.com/wechat.html' },
-        { TITLE:'抖音', URL: 'https://html.nankoyo.com/tiktok.html' },
+        { TITLE:'WeChat', URL: 'https://html.nankoyo.com/wechat.html' },
+        { TITLE:'Tiktok', URL: 'https://html.nankoyo.com/tiktok.html' },
         {
-          TITLE: '快手',
+          TITLE: 'Kwai',
           URL:'https://html.nankoyo.com/kwai.html'
         },
         {
-          TITLE: '哔哩哔哩',
+          TITLE: 'Bilibili',
           URL:'https://html.nankoyo.com/bilibili.html'
         },
         {
-          TITLE:'微博',
+          TITLE:'Weibo',
           URL:'https://html.nankoyo.com/weibo.html'
         }
       ]
     },
     {
-      TITLE: '帮助支持',
+      TITLE: 'Help Support',
       LINK_GROUP: [
         {
-          TITLE:'操作文档',
+          TITLE:'operating document',
           URL:'https://nankoyo.com/operating'
         },
         {
-          TITLE:'帮助支持',
+          TITLE:'Help Support',
           URL:'https://nankoyo.com/how-to-question'
         },
         {
-          TITLE:'Cookie 协议',
+          TITLE:'Cookie Protocol',
           URL:'https://nankoyo.com/Cookie_Policy'
         },
         {
-          TITLE:'部署指南',
+          TITLE:'Deployment Guide',
           URL:'https://nankoyo.com/deploy-nankoyo-next'
         },
         {
-          TITLE:'升级指南',
+          TITLE:'Upgrade Guide',
           URL:'https://nankoyo.com/how-to-update-nankoyo'
         },
-        { TITLE:'最新版本', URL: 'https://nankoyo.com/latest' }
+        { TITLE:'latest version', URL: 'https://nankoyo.com/latest' }
       ]
     },
     {
-      TITLE: '友情链接',
+      TITLE: 'Friendly Link',
       LINK_GROUP: [
         {
           TITLE: 'Status',
@@ -449,21 +449,21 @@ const CONFIG = {
     }
   ],
 
-  STARTER_FOOTER_BLOG_LATEST_TITLE: '最新文章',
+  STARTER_FOOTER_BLOG_LATEST_TITLE: 'Latest Articles',
 
-  STARTER_FOOTER_PRIVACY_POLICY_TEXT: '隐私政策',
+  STARTER_FOOTER_PRIVACY_POLICY_TEXT: 'privacy policy',
   STARTER_FOOTER_PRIVACY_POLICY_URL: '/privacy-policy',
 
-  STARTER_FOOTER_PRIVACY_LEGAL_NOTICE_TEXT: '法律声明',
+  STARTER_FOOTER_PRIVACY_LEGAL_NOTICE_TEXT: 'Legal Notices',
   STARTER_FOOTER_PRIVACY_LEGAL_NOTICE_URL: '/legacy-notice',
 
-  STARTER_FOOTER_PRIVACY_TERMS_OF_SERVICE_TEXT: '服务协议',
+  STARTER_FOOTER_PRIVACY_TERMS_OF_SERVICE_TEXT: 'service agreement',
   STARTER_FOOTER_PRIVACY_TERMS_OF_SERVICE_URL: '/terms-of-use',
 
   // 404页面的提示语
-  STARTER_404_TITLE: '我们似乎找不到您要找的页面。',
-  STARTER_404_TEXT: '抱歉！您要查找的页面不存在。可能已经移动或删除。',
-  STARTER_404_BACK: '回到主页',
+  STARTER_404_TITLE: 'We cant seem to find the page you are looking for.',
+  STARTER_404_TEXT: 'Sorry!The page you are looking for does not exist.It may have been moved or deleted.',
+  STARTER_404_BACK: 'Back to Main Page',
 
   STARTER_POST_REDIRECT_ENABLE: true, // 默認開啟重定向
   STARTER_POST_REDIRECT_URL: 'https://nankoyo.com', // 重定向域名
