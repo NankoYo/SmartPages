@@ -442,6 +442,10 @@ const CONFIG = {
           URL: 'https://dns.nankoyo.com'
         },
         {
+          TITLE: 'AI PAN',
+          URL: 'https://dns.nankoyo.com'
+        },
+        {
           TITLE: 'Hot',
           URL: 'https://hot.nankoyo.com'
         }
