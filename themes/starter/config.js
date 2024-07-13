@@ -446,6 +446,10 @@ const CONFIG = {
           URL: 'https://aipan.nankoyo.com'
         },
         {
+          TITLE: 'API',
+          URL: 'https://api.nankoyo.com'
+        },
+        {
           TITLE: 'Hot',
           URL: 'https://hot.nankoyo.com'
         }
