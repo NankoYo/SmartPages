@@ -443,7 +443,7 @@ const CONFIG = {
         },
         {
           TITLE: 'AI PAN',
-          URL: 'https://dns.nankoyo.com'
+          URL: 'https://aipan.nankoyo.com'
         },
         {
           TITLE: 'Hot',
