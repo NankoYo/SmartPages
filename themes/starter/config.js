@@ -11,7 +11,7 @@ const CONFIG = {
   // 英雄区块导航
   STARTER_HERO_ENABLE: true, // 开启英雄区
   STARTER_HERO_TITLE_1: '云谷引擎（Vallengine）', // 英雄区文字
-  STARTER_HERO_TITLE_2: '云谷引擎（Vallengine）是一个为企业和开发者提供安全稳定的云计算服务的平台。它提供了全方位的云服务和各行业解决方案，包括云服务器、云数据库、云存储、视频与CDN、域名注册等。无论是大型企业还是个人开发者，都可以依靠云谷引擎来满足他们的云计算需求。', // 英雄区文字
+  STARTER_HERO_TITLE_2: '云谷引擎（Vallengine）是一家专注于提供全面云计算服务的公司，我们的宗旨是通过创新技术简化IT基础设施，释放客户的创新潜能。', // 英雄区文字
   // 英雄区两个按钮，如果TEXT留空则隐藏按钮
   STARTER_HERO_BUTTON_1_TEXT: '', // 英雄区按钮
   STARTER_HERO_BUTTON_1_URL:
@@ -34,26 +34,26 @@ const CONFIG = {
   STARTER_FEATURE_TITLE: '特性', // 特性
   STARTER_FEATURE_TEXT_1: 'Vallengine的主要特性', // 特性
   STARTER_FEATURE_TEXT_2:
-    '无论您是个人开发者还是大型企业，云谷引擎都能为您提供可靠的云计算解决方案。', // 特性
+    '简化复杂性，释放创新潜能', // 特性
 
-  STARTER_FEATURE_1_TITLE_1: '数据安全保障', // 特性1
-  STARTER_FEATURE_1_TEXT_1: '强化云谷引擎（Vallengine）的首要优势', // 特性1
+  STARTER_FEATURE_1_TITLE_1: '安全可靠的数据保护', // 特性1
+  STARTER_FEATURE_1_TEXT_1: '遵守最高安全标准，保护您的数据', // 特性1
   STARTER_FEATURE_1_BUTTON_TEXT: '了解更多', // 特性1
   STARTER_FEATURE_1_BUTTON_URL: '/Data_Security_Assurance', // 特性1
 
-  STARTER_FEATURE_2_TITLE_1: '高度定制化', // 特性2
-  STARTER_FEATURE_2_TEXT_1: '个性化需求的完美解决方案', // 特性2
+  STARTER_FEATURE_2_TITLE_1: '灵活的计费模式', // 特性2
+  STARTER_FEATURE_2_TEXT_1: '根据使用量付费，无长期合同束缚', // 特性2
   STARTER_FEATURE_2_BUTTON_TEXT: '了解更多', // 特性2
   STARTER_FEATURE_2_BUTTON_URL:
     '/Highly_customizable', // 特性2
 
-  STARTER_FEATURE_3_TITLE_1: '灵活扩展性', // 特性3
-  STARTER_FEATURE_3_TEXT_1: '随需应变，轻松应对业务增长', // 特性3
+  STARTER_FEATURE_3_TITLE_1: '高性能计算资源', // 特性3
+  STARTER_FEATURE_3_TEXT_1: '支持各种规模的应用程序和工作负载', // 特性3
   STARTER_FEATURE_3_BUTTON_TEXT: '了解更多', // 特性3
   STARTER_FEATURE_3_BUTTON_URL: '/Flexible_Scalability', // 特性3
 
-  STARTER_FEATURE_4_TITLE_1: '卓越性能表现', // 特性4
-  STARTER_FEATURE_4_TEXT_1: '稳定、高效的运行保障', // 特性4
+  STARTER_FEATURE_4_TITLE_1: '全球数据中心网络', // 特性4
+  STARTER_FEATURE_4_TEXT_1: '确保数据低延迟和高可用性', // 特性4
   STARTER_FEATURE_4_BUTTON_TEXT: '了解更多', // 特性4
   STARTER_FEATURE_4_BUTTON_URL: '/Excellent_performance', // 特性4
 
@@ -61,7 +61,7 @@ const CONFIG = {
   STARTER_ABOUT_ENABLE: true, // ABOUT区块开关
   STARTER_ABOUT_TITLE: '云谷引擎（Vallengine）',
   STARTER_ABOUT_TEXT:
-    '无论您是个人开发者还是大型企业，云谷引擎都能为您提供可靠的云计算解决方案。',
+    '简化复杂性，释放创新潜能',
   STARTER_ABOUT_BUTTON_TEXT: '了解更多',
   STARTER_ABOUT_BUTTON_URL: '/about',
   STARTER_ABOUT_IMAGE_1: '/images/starter/about/about-image-01.jpg',
@@ -174,26 +174,26 @@ const CONFIG = {
   ],
 
   //   FAQ 常见问题模块
-  STARTER_FAQ_ENABLE: false, // 常见问题模块开关
-  STARTER_FAQ_TITLE: '常见问题解答',
-  STARTER_FAQ_TEXT_1: '有任何问题吗？请看这里',
-  STARTER_FAQ_TEXT_2: '我们收集了常见的用户疑问',
+  STARTER_FAQ_ENABLE: true, // 常见问题模块开关
+  STARTER_FAQ_TITLE: '主要服务',
+  STARTER_FAQ_TEXT_1: '云计算如何简化IT基础设施并加速创新',
+  STARTER_FAQ_TEXT_2: '简化复杂性，释放创新潜能',
 
-  STARTER_FAQ_1_QUESTION: 'NotionNext有帮助文档吗？',
+  STARTER_FAQ_1_QUESTION: '云服务器',
   STARTER_FAQ_1_ANSWER:
-    'NotionNext提供了<a href="https://docs.tangly1024.com/about" className="underline">帮助文档</a>，操作<a href="https://www.bilibili.com/video/BV1fM4y1L7Qi/" className="underline">演示视频</a>，以及<a href="https://docs.tangly1024.com/article/chat-community" className="underline">交流社群</a>来协助您完成网站的搭建部署',
+    '灵活、可扩展的虚拟服务器<br /> <br />- 快速部署，轻松扩展<br /> <br />- 多种操作系统和配置选项<br /> <br />- 高级安全特性和自动备份',
 
-  STARTER_FAQ_2_QUESTION: '部署后要如何编写文章？',
+  STARTER_FAQ_2_QUESTION: '云存储',
   STARTER_FAQ_2_ANSWER:
-    '您可以在Notion中之间添加或修改类型为Post的页面，内容将被实时同步在站点中，详情参考<a className="underline" href="https://docs.tangly1024.com/article/start-to-write">《帮助文档》</a>',
+    '安全、可靠的数据存储解决方案<br /> <br />- 可扩展性，满足不断增长的需求<br /> <br />- 冗余存储，确保数据持久性<br /> <br />- 易于使用的API和集成',
 
-  STARTER_FAQ_3_QUESTION: '站点部署失败，更新失败？',
+  STARTER_FAQ_3_QUESTION: '数据库服务',
   STARTER_FAQ_3_ANSWER:
-    '通常是配置修改错误导致，请检查配置或者重试操作步骤，或者通过Vercel后台的Deployments中找到错误日志，并向网友求助',
+    '高性能的数据库托管服务<br /> <br />- 支持SQL和NoSQL数据库<br /> <br />- 自动化维护和性能优化<br /> <br />- 灵活的备份和恢复选项',
 
-  STARTER_FAQ_4_QUESTION: '文章没有实时同步？',
+  STARTER_FAQ_4_QUESTION: '大数据分析',
   STARTER_FAQ_4_ANSWER:
-    '先检查Notion_Page_ID是否正确配置，其次由于博客的每个页面都有独立缓存，刷新网页后即可解决',
+    '强大的数据洞察和分析工具<br /> <br />- 处理和分析大规模数据集<br /> <br />- 机器学习和预测分析工具<br /> <br />- 实时数据流和处理能力',
 
   // 团队成员区块
   STARTER_TEAM_ENABLE: false, // 团队成员区块开关
@@ -228,24 +228,24 @@ const CONFIG = {
   ],
 
   // 博客文章区块
-  STARTER_BLOG_ENABLE: false, // 首页博文区块开关
+  STARTER_BLOG_ENABLE: true, // 首页博文区块开关
   STARTER_BLOG_TITLE: '我们的博客',
   STARTER_BLOG_COUNT: 3, // 首页博文区块默认展示前3篇文章
   STARTER_BLOG_TEXT_1: '最近的新闻',
   STARTER_BLOG_TEXT_2:
-    '这里会发布一些关于NotionNext的最新动态，包括新的动向、新的未来计划，以及新功能的特性',
+    '这里会发布一些关于vallengine的最新动态，包括新的动向、新的未来计划，以及新功能的特性',
 
   // 联系模块
-  STARTER_CONTACT_ENABLE: false, // 联系模块开关
+  STARTER_CONTACT_ENABLE: true, // 联系模块开关
   STARTER_CONTACT_TITLE: '联系我们',
   STARTER_CONTACT_TEXT: '告诉我们您遇到的问题',
   STARTER_CONTACT_LOCATION_TITLE: '我们的位置',
-  STARTER_CONTACT_LOCATION_TEXT: '中国，福建',
+  STARTER_CONTACT_LOCATION_TEXT: '中国，天津',
   STARTER_CONTACT_EMAIL_TITLE: '我们如何帮助您？',
-  STARTER_CONTACT_EMAIL_TEXT: 'mail@tangly1024.com',
+  STARTER_CONTACT_EMAIL_TEXT: 'mail@vallengine.com',
 
   // 嵌入外部表单
-  STARTER_CONTACT_MSG_EXTERNAL_URL: 'https://noteforms.com/forms/yfctc7', // 基于NoteForm创建，将留言数据存在Notion中
+  STARTER_CONTACT_MSG_EXTERNAL_URL: 'https://noteforms.com/forms/feedback-yjrioz', // 基于NoteForm创建，将留言数据存在Notion中
   //   自定义留言表单，以下几个配置暂时废弃
   //   STARTER_CONTACT_MSG_TITLE: '向我们留言',
   //   STARTER_CONTACT_MSG_NAME: '姓名',
@@ -256,7 +256,7 @@ const CONFIG = {
   //   STARTER_CONTACT_MSG_THANKS: '感谢您的留言',
 
   // 合作伙伴的图标
-  STARTER_BRANDS_ENABLE: false, // 合作伙伴开关
+  STARTER_BRANDS_ENABLE: true, // 合作伙伴开关
   STARTER_BRANDS: [
     {
       IMAGE: '/images/starter/brands/graygrids.svg',
@@ -290,7 +290,7 @@ const CONFIG = {
     }
   ],
 
-  STARTER_FOOTER_SLOGAN: '我们通过技术为品牌和公司创造数字体验。',
+  STARTER_FOOTER_SLOGAN: '简化复杂性，释放创新潜能。',
 
   // 页脚三列菜单组
   STARTER_FOOTER_LINK_GROUP: [
@@ -313,18 +313,18 @@ const CONFIG = {
       TITLE: '功能特性',
       LINK_GROUP: [
         {
-          TITLE: '数据安全保障',
+          TITLE: '安全可靠的数据保护',
           URL: '/Data_Security_Assurance'
         },
         {
-          TITLE: '高度定制化',
+          TITLE: '灵活的计费模式',
           URL: '/Highly_customizable'
         },
         {
-          TITLE: '灵活扩展性',
+          TITLE: '全球数据中心网络',
           URL: '/Flexible_Scalability'
         },
-        { TITLE: '卓越性能表现', URL: '/Excellent_performance' }
+        { TITLE: '高性能计算资源', URL: '/Excellent_performance' }
       ]
     },
     {
