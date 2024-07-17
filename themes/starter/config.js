@@ -450,6 +450,10 @@ const CONFIG = {
           URL: 'https://api.nankoyo.com'
         },
         {
+          TITLE: 'CDN JS',
+          URL: 'https://cdnjs.nankoyo.com'
+        },
+        {
           TITLE: 'Hot',
           URL: 'https://hot.nankoyo.com'
         }
