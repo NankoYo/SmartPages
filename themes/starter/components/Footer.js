@@ -4,6 +4,9 @@ import CONFIG from '../config';
 import { Logo } from './Logo';
 import { SVGFooterCircleBG } from './svg/SVGFooterCircleBG';
 
+// 引入 Font Awesome 的 CSS
+import '@fortawesome/fontawesome-free/css/all.min.css';
+
 /* eslint-disable @next/next/no-img-element */
 export const Footer = props => {
   const latestPosts = props?.latestPosts? props?.latestPosts.slice(0, 2) : [];
@@ -13,18 +16,24 @@ export const Footer = props => {
     CONFIG
   );
 
-  // 获取网站启动时间（假设为 2023 年 1 月 1 日 0 时 0 分 0 秒）
+  // 初始化网站启动时间
   const startDate = new Date(2023, 0, 1, 0, 0, 0);
-  const currentDate = new Date();
-  const timeDiff = currentDate - startDate;
 
-  // 计算年、月、日、时、分、秒
-  const years = Math.floor(timeDiff / (1000 * 60 * 60 * 24 * 365));
-  const months = Math.floor((timeDiff % (1000 * 60 * 60 * 24 * 365)) / (1000 * 60 * 60 * 24 * 30));
-  const days = Math.floor((timeDiff % (1000 * 60 * 60 * 24 * 30)) / (1000 * 60 * 60 * 24));
-  const hours = Math.floor((timeDiff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  const minutes = Math.floor((timeDiff % (1000 * 60 * 60)) / (1000 * 60));
-  const seconds = Math.floor((timeDiff % (1000 * 60)) / 1000);
+  // 计算网站运行时间的函数
+  const calculateRunTime = () => {
+    const currentDate = new Date();
+    const timeDiff = currentDate - startDate;
+
+    // 计算年、月、日、时、分、秒
+    const years = Math.floor(timeDiff / (1000 * 60 * 60 * 24 * 365));
+    const months = Math.floor((timeDiff % (1000 * 60 * 60 * 24 * 365)) / (1000 * 60 * 60 * 24 * 30));
+    const days = Math.floor((timeDiff % (1000 * 60 * 60 * 24 * 30)) / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((timeDiff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const minutes = Math.floor((timeDiff % (1000 * 60 * 60)) / (1000 * 60));
+    const seconds = Math.floor((timeDiff % (1000 * 60)) / 1000);
+
+    return `网站已运行：${years} 年 ${months} 个月 ${days} 天 ${hours} 小时 ${minutes} 分钟 ${seconds} 秒`;
+  };
 
   return (
     <>
@@ -174,9 +183,14 @@ export const Footer = props => {
             </div>
 
             <div className='text-center mt-4'>
-              <p>网站已运行：{years} 年 {months} 个月 {days} 天 {hours} 小时 {minutes} 分钟 {seconds} 秒</p>
+              <p className="text-white">{calculateRunTime()}</p>
             </div>
           </div>
+        </div>
+
+        {/* 添加 sakura 动态图标（Font Awesome 示例） */}
+        <div className="sakura-container">
+          <i className="fa-solid fa-sakura fa-spin"></i>
         </div>
 
         {/* Footer 背景 */}
@@ -196,5 +210,5 @@ export const Footer = props => {
       </footer>
       {/* <!-- ====== Footer Section End --> */}
     </>
-  )
-}
+  );
+};
