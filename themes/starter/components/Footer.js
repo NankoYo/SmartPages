@@ -1,17 +1,26 @@
-import { siteConfig } from '@/lib/config'
-import SocialButton from '@/themes/fukasawa/components/SocialButton'
-import CONFIG from '../config'
-import { Logo } from './Logo'
-import { SVGFooterCircleBG } from './svg/SVGFooterCircleBG'
+import { siteConfig } from '@/lib/config';
+import SocialButton from '@/themes/fukasawa/components/SocialButton';
+import CONFIG from '../config';
+import { Logo } from './Logo';
+import { SVGFooterCircleBG } from './svg/SVGFooterCircleBG';
 
 /* eslint-disable @next/next/no-img-element */
 export const Footer = props => {
-  const latestPosts = props?.latestPosts ? props?.latestPosts.slice(0, 2) : []
+  const latestPosts = props?.latestPosts? props?.latestPosts.slice(0, 2) : [];
   const STARTER_FOOTER_LINK_GROUP = siteConfig(
     'STARTER_FOOTER_LINK_GROUP',
     [],
     CONFIG
-  )
+  );
+
+  // 获取网站启动时间
+  const startDate = new Date('2023-01-01');  // 替换为您的实际网站启动时间
+  const currentDate = new Date();
+  const timeDiff = currentDate - startDate;
+  const years = Math.floor(timeDiff / (1000 * 60 * 60 * 24 * 365));
+  const months = Math.floor((timeDiff % (1000 * 60 * 60 * 24 * 365)) / (1000 * 60 * 60 * 24 * 30));
+  const days = Math.floor((timeDiff % (1000 * 60 * 60 * 24 * 30)) / (1000 * 60 * 60 * 24));
+
   return (
     <>
       {/* <!-- ====== Footer Section Start --> */}
@@ -94,8 +103,7 @@ export const Footer = props => {
         </div>
 
         {/* 底部版权信息相关 */}
-
-        <div className='mt-12 border-t border-[#8890A4] border-opacity-40 py-8 lg:mt-[60px]'>
+        <div className='mt-12 border-t border-[#8890A4] border-opacity-40 py-8 lg:mt-[60px] bg-gray-800'>  // 更改背景色为深灰色
           <div className='container'>
             <div className='-mx-4 flex flex-wrap'>
               <div className='w-full px-4 md:w-2/3 lg:w-1/2'>
@@ -107,7 +115,7 @@ export const Footer = props => {
                         null,
                         CONFIG
                       )}
-                      className='px-3 text-base text-gray-7 hover:text-white hover:underline'>
+                      className='px-3 text-base text-gray-300 hover:text-white hover:underline'>  // 更改文字颜色为浅灰色
                       {siteConfig(
                         'STARTER_FOOTER_PRIVACY_POLICY_TEXT',
                         null,
@@ -120,7 +128,7 @@ export const Footer = props => {
                         null,
                         CONFIG
                       )}
-                      className='px-3 text-base text-gray-7 hover:text-white hover:underline'>
+                      className='px-3 text-base text-gray-300 hover:text-white hover:underline'>  // 更改文字颜色为浅灰色
                       {siteConfig(
                         'STARTER_FOOTER_PRIVACY_LEGAL_NOTICE_TEXT',
                         null,
@@ -133,7 +141,7 @@ export const Footer = props => {
                         null,
                         CONFIG
                       )}
-                      className='px-3 text-base text-gray-7 hover:text-white hover:underline'>
+                      className='px-3 text-base text-gray-300 hover:text-white hover:underline'>  // 更改文字颜色为浅灰色
                       {siteConfig(
                         'STARTER_FOOTER_PRIVACY_TERMS_OF_SERVICE_TEXT',
                         null,
@@ -145,7 +153,7 @@ export const Footer = props => {
               </div>
               <div className='w-full px-4 md:w-1/3 lg:w-1/2'>
                 <div className='my-1 flex justify-center md:justify-end'>
-                  <p className='text-base text-gray-7'>
+                  <p className='text-base text-gray-300'>  // 更改文字颜色为浅灰色
                     Designed and Developed by
                     <a
                       href='https://github.com/tangly1024/NotionNext'
@@ -157,6 +165,9 @@ export const Footer = props => {
                   </p>
                 </div>
               </div>
+            </div>
+            <div className='text-center mt-4 text-gray-400'>  // 新增网站运行时间部分
+              <p>网站已运行：{years} 年 {months} 个月 {days} 天</p>
             </div>
           </div>
         </div>
@@ -178,5 +189,5 @@ export const Footer = props => {
       </footer>
       {/* <!-- ====== Footer Section End --> */}
     </>
-  )
-}
+  );
+};
