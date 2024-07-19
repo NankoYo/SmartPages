@@ -13,13 +13,18 @@ export const Footer = props => {
     CONFIG
   );
 
-  // 获取网站启动时间
-  const startDate = new Date('2023-01-01');  // 替换为您的实际网站启动时间
+  // 获取网站启动时间（假设为 2023 年 1 月 1 日 0 时 0 分 0 秒）
+  const startDate = new Date(2023, 0, 1, 0, 0, 0);
   const currentDate = new Date();
   const timeDiff = currentDate - startDate;
+
+  // 计算年、月、日、时、分、秒
   const years = Math.floor(timeDiff / (1000 * 60 * 60 * 24 * 365));
   const months = Math.floor((timeDiff % (1000 * 60 * 60 * 24 * 365)) / (1000 * 60 * 60 * 24 * 30));
   const days = Math.floor((timeDiff % (1000 * 60 * 60 * 24 * 30)) / (1000 * 60 * 60 * 24));
+  const hours = Math.floor((timeDiff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  const minutes = Math.floor((timeDiff % (1000 * 60 * 60)) / (1000 * 60));
+  const seconds = Math.floor((timeDiff % (1000 * 60)) / 1000);
 
   return (
     <>
@@ -103,7 +108,8 @@ export const Footer = props => {
         </div>
 
         {/* 底部版权信息相关 */}
-        <div className='mt-12 border-t border-[#8890A4] border-opacity-40 py-8 lg:mt-[60px] bg-gray-800'>  // 更改背景色为深灰色
+
+        <div className='mt-12 border-t border-[#8890A4] border-opacity-40 py-8 lg:mt-[60px]'>
           <div className='container'>
             <div className='-mx-4 flex flex-wrap'>
               <div className='w-full px-4 md:w-2/3 lg:w-1/2'>
@@ -115,7 +121,7 @@ export const Footer = props => {
                         null,
                         CONFIG
                       )}
-                      className='px-3 text-base text-gray-300 hover:text-white hover:underline'>  // 更改文字颜色为浅灰色
+                      className='px-3 text-base text-gray-7 hover:text-white hover:underline'>
                       {siteConfig(
                         'STARTER_FOOTER_PRIVACY_POLICY_TEXT',
                         null,
@@ -128,7 +134,7 @@ export const Footer = props => {
                         null,
                         CONFIG
                       )}
-                      className='px-3 text-base text-gray-300 hover:text-white hover:underline'>  // 更改文字颜色为浅灰色
+                      className='px-3 text-base text-gray-7 hover:text-white hover:underline'>
                       {siteConfig(
                         'STARTER_FOOTER_PRIVACY_LEGAL_NOTICE_TEXT',
                         null,
@@ -141,7 +147,7 @@ export const Footer = props => {
                         null,
                         CONFIG
                       )}
-                      className='px-3 text-base text-gray-300 hover:text-white hover:underline'>  // 更改文字颜色为浅灰色
+                      className='px-3 text-base text-gray-7 hover:text-white hover:underline'>
                       {siteConfig(
                         'STARTER_FOOTER_PRIVACY_TERMS_OF_SERVICE_TEXT',
                         null,
@@ -153,7 +159,7 @@ export const Footer = props => {
               </div>
               <div className='w-full px-4 md:w-1/3 lg:w-1/2'>
                 <div className='my-1 flex justify-center md:justify-end'>
-                  <p className='text-base text-gray-300'>  // 更改文字颜色为浅灰色
+                  <p className='text-base text-gray-7'>
                     Designed and Developed by
                     <a
                       href='https://github.com/tangly1024/NotionNext'
@@ -166,8 +172,9 @@ export const Footer = props => {
                 </div>
               </div>
             </div>
-            <div className='text-center mt-4 text-gray-400'>  // 新增网站运行时间部分
-              <p>网站已运行：{years} 年 {months} 个月 {days} 天</p>
+
+            <div className='text-center mt-4'>
+              <p>网站已运行：{years} 年 {months} 个月 {days} 天 {hours} 小时 {minutes} 分钟 {seconds} 秒</p>
             </div>
           </div>
         </div>
@@ -189,5 +196,5 @@ export const Footer = props => {
       </footer>
       {/* <!-- ====== Footer Section End --> */}
     </>
-  );
-};
+  )
+}
