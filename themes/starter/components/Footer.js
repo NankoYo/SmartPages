@@ -4,9 +4,6 @@ import CONFIG from '../config';
 import { Logo } from './Logo';
 import { SVGFooterCircleBG } from './svg/SVGFooterCircleBG';
 
-// 引入 Font Awesome 的 CSS
-import '@fortawesome/fontawesome-free/css/all.min.css';
-
 /* eslint-disable @next/next/no-img-element */
 export const Footer = props => {
   const latestPosts = props?.latestPosts? props?.latestPosts.slice(0, 2) : [];
