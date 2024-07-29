@@ -162,17 +162,8 @@ export const Footer = props => {
                       rel='nofollow noopner noreferrer'
                       target='_blank'
                       className='px-1 text-gray-1 hover:underline'>
-                      SmartPage_v{siteConfig('VERSION')}
+                      当前CDN节点: <span id="cdn"></span>
                     </a>
-                     & 
-                    <a
-                      href='https://vallengine.com'
-                      rel='nofollow noopner noreferrer'
-                      target='_blank'
-                      className='px-1 text-gray-1 hover:underline'>
-                      Vallengine_v2.1.2
-                    </a>
-                     强力驱动.
                   </p>
                 </div>
               </div>
