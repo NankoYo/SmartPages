@@ -37,9 +37,14 @@ const Footer = ({ title }) => {
                       NanKoYo,Inc
                     </a>
                     All Rights Reserved.
-                    <div>
                     <br />
-                    当前CDN节点:{' '}
+                      <a
+                      href='https://nankoyo.com'
+                      rel='nofollow noopner noreferrer'
+                      target='_blank'
+                      className='px-1 text-gray-1 hover:underline'>
+                    当前CDN节点: <span id="cdn"></span>
+                    </a>
                     <span id="cdn" />
                     <br />
                     由 
