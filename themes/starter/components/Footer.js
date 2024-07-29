@@ -156,7 +156,6 @@ export const Footer = props => {
                     </a>
                     All Rights Reserved.
                     <br />
-                    由 
                     <a
                       href='https://nankoyo.com'
                       rel='nofollow noopner noreferrer'
