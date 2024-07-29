@@ -39,7 +39,8 @@ const Footer = ({ title }) => {
                     All Rights Reserved.
                     <div>
                     <br />
-                    当前CDN节点: <span id="cdn"></span>
+                    当前CDN节点:{' '}
+                    <span id="cdn" />
                     <br />
                     由 
                     <a
