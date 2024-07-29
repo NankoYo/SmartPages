@@ -45,25 +45,6 @@ const Footer = ({ title }) => {
                       className='px-1 text-gray-1 hover:underline'>
                     当前CDN节点: <span id="cdn"></span>
                     </a>
-                    <span id="cdn" />
-                    <br />
-                    由 
-                    <a
-                      href='https://nankoyo.com'
-                      rel='nofollow noopner noreferrer'
-                      target='_blank'
-                      className='px-1 text-gray-1 hover:underline'>
-                      SmartPage_v{siteConfig('VERSION')}
-                    </a>
-                    & 
-                    <a
-                      href='https://vallengine.com'
-                      rel='nofollow noopner noreferrer'
-                      target='_blank'
-                      className='px-1 text-gray-1 hover:underline'>
-                      Vallengine_v2.1.2
-                    </a>
-                    强力驱动.
                 </div>
             <div id='footer-bottom-right'>
                 {siteConfig('BEI_AN') && <><i className='fas fa-shield-alt' /> <a href='https://beian.miit.gov.cn/' className='mr-2'>{siteConfig('BEI_AN')}</a></>}
