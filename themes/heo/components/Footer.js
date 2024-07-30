@@ -36,7 +36,6 @@ const Footer = ({ title }) => {
                       className='px-1 text-gray-1 hover:underline'>
                       NanKoYo,Inc
                     </a>
-                    All Rights Reserved.
                     <br />
                       <a
                       href='https://nankoyo.com'
