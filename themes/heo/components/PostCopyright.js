@@ -44,7 +44,7 @@ export default function PostCopyright() {
           {locale.COMMON.COPYRIGHT_NOTICE}
         </li>
         <li>
-          <strong className='mr-2'>当前CDN节点: <span id="cdn"></span></strong>
+          <i className='fas fa-shield-alt' />{' '}<strong className='mr-2'>当前CDN节点: <span id="cdn"></span></strong>
           <Link href={'/#'} className='hover:underline'>
           </Link>
         </li>
