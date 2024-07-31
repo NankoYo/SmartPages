@@ -161,7 +161,7 @@ export const Footer = props => {
                       rel='nofollow noopner noreferrer'
                       target='_blank'
                       className='px-1 text-gray-1 hover:underline'>
-                      当前CDN节点: <span id="cdn"></span>
+                      当前CDN节点: <span id="cdn" />
                     </a>
                   </p>
                 </div>
