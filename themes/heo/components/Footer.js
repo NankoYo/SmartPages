@@ -36,14 +36,6 @@ const Footer = ({ title }) => {
                       className='px-1 text-gray-1 hover:underline'>
                       NanKoYo,Inc
                     </a>
-                    <br />
-                      <a
-                      href='https://nankoyo.com'
-                      rel='nofollow noopner noreferrer'
-                      target='_blank'
-                      className='px-1 text-gray-1 hover:underline'>
-                    当前CDN节点: <span id="cdn"></span>
-                    </a>
                 </div>
             <div id='footer-bottom-right'>
                 {siteConfig('BEI_AN') && <><i className='fas fa-shield-alt' /> <a href='https://beian.miit.gov.cn/' className='mr-2'>{siteConfig('BEI_AN')}</a></>}
