@@ -46,7 +46,7 @@ export default function PostCopyright() {
         <li>
           <strong className='mr-2'>当前CDN节点: </strong>
           <Link href={'/#'} className='hover:underline'>
-          <span id="cdn"></span>
+          <span id="cdn" />
           </Link>
         </li>
       </ul>
