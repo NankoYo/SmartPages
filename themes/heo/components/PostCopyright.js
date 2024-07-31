@@ -43,6 +43,12 @@ export default function PostCopyright() {
           <strong className='mr-2'>{locale.COMMON.COPYRIGHT}:</strong>
           {locale.COMMON.COPYRIGHT_NOTICE}
         </li>
+        <li>
+          <strong className='mr-2'>当前CDN节点: </strong>
+          <Link href={'/#'} className='hover:underline'>
+          <span id="cdn"></span>
+          </Link>
+        </li>
       </ul>
     </section>
   )
