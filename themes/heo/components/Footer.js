@@ -28,8 +28,8 @@ const Footer = ({ title }) => {
             <div id='footer-bottom' className='w-full h-20 flex flex-col p-3 lg:flex-row justify-between px-6 items-center bg-[#f1f3f7] dark:bg-[#30343f]'>
 
                 <div id='footer-bottom-left'>
-          Smartpages {siteConfig('VERSION')} <i className='fas fa-copyright' />{' '}
-         2021-2024 <i className='mx-1 animate-pulse fas fa-registered' />{' '}
+          Smartpages {siteConfig('VERSION')} <i className='fas fa-copyright' />
+         2021-2024 <i className='mx-1 animate-pulse fas fa-registered' />
           <a
             href='https://blog.nankoyo.com/'
             className='underline font-bold dark:text-gray-300 '>
