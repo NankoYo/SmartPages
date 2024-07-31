@@ -38,7 +38,7 @@ const Footer = ({ title }) => {
                     </a>
                 </div>
             <div id='footer-bottom-right'>
-                {siteConfig('BEI_AN') && <><i className='fas fa-shield-alt' /> <a href='https://beian.miit.gov.cn/' className='mr-2'>{siteConfig('BEI_AN')}</a></>}
+                <i className='fas fa-shield-alt' /> <a href='https://www.cloudFlare.com/' className='mr-2'>当前CDN节点: <span id="cdn"></span></a></>}
 
                 <span className='hidden busuanzi_container_site_pv'>
                     <i className='fas fa-eye' /><span className='px-1 busuanzi_value_site_pv'> </span>  </span>
