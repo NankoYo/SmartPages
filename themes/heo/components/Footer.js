@@ -34,7 +34,7 @@ const Footer = ({ title }) => {
             href='https://blog.nankoyo.com/'
             className='underline font-bold dark:text-gray-300 '>
            NanKoYo, Inc
-          </a>{' '}
+          </a><br />
           <i className='fas fa-shield-alt' />{' '}
               <a href='https://www.cloudflare.com/' className='mr-2'>
                 当前CDN节点: <span id="cdn"></span>
