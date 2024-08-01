@@ -43,7 +43,9 @@ export default function PostCopyright() {
           <strong className='mr-2'>{locale.COMMON.COPYRIGHT}:</strong>
           {locale.COMMON.COPYRIGHT_NOTICE}
         </li>
-        <div
+      </ul>
+    </section>
+<div
   className="reward"
   style={{
     marginTop: '500px'
@@ -77,7 +79,5 @@ export default function PostCopyright() {
   </p>
   {' '}
 </div>
-      </ul>
-    </section>
   )
 }
