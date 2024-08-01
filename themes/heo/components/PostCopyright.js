@@ -43,24 +43,72 @@ export default function PostCopyright() {
           <strong className='mr-2'>{locale.COMMON.COPYRIGHT}:</strong>
           {locale.COMMON.COPYRIGHT_NOTICE}
         </li>
-        <li>
-          <div style="padding: 10px 0; margin: 20px auto; width: 100%; font-size:16px; text-align: center;">
-    <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
-        <span>打赏</span></button>
-    <div id="QR" style="display: none;">
-        <div id="wechat" style="display: inline-block">
-            <a class="fancybox" rel="group">
-                <img id="wechat_qr" src="https://cdn.nankoyo.com/public/cache/blog/posts/wechat.jpg" alt="WeChat Pay"></a>
-            <p>微信打赏</p>
-        </div>
-        <div id="alipay" style="display: inline-block">
-            <a class="fancybox" rel="group">
-                <img id="alipay_qr" src="https://cdn.nankoyo.com/public/cache/blog/posts/alipay.jpg" alt="Alipay"></a>
-            <p>支付宝打赏</p>
-        </div>
+        <div
+  style={{
+    fontSize: '16px',
+    margin: '20px auto',
+    padding: '10px 0',
+    textAlign: 'center',
+    width: '100%'
+  }}
+>
+  <button
+    disable="enable"
+    id="rewardButton"
+    onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}"
+  >
+    <span>
+      打赏
+    </span>
+  </button>
+  <div
+    id="QR"
+    style={{
+      display: 'none'
+    }}
+  >
+    <div
+      id="wechat"
+      style={{
+        display: 'inline-block'
+      }}
+    >
+      <a
+        className="fancybox"
+        rel="group"
+      >
+        <img
+          alt="WeChat Pay"
+          id="wechat_qr"
+          src="https://cdn.nankoyo.com/public/cache/blog/posts/wechat.jpg"
+        />
+      </a>
+      <p>
+        微信打赏
+      </p>
     </div>
+    <div
+      id="alipay"
+      style={{
+        display: 'inline-block'
+      }}
+    >
+      <a
+        className="fancybox"
+        rel="group"
+      >
+        <img
+          alt="Alipay"
+          id="alipay_qr"
+          src="https://cdn.nankoyo.com/public/cache/blog/posts/alipay.jpg"
+        />
+      </a>
+      <p>
+        支付宝打赏
+      </p>
+    </div>
+  </div>
 </div>
-      </li>
       </ul>
     </section>
   )
