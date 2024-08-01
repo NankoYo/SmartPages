@@ -38,7 +38,7 @@ const Footer = ({ title }) => {
           <i className='fa-solid fa-language' />{' '}
               <a href='https://blog.nankoyo.com/' className='mr-2'>
                 每日一言: <span id="hitokoto"></span>
-              </a>
+          </a><br />
          <i className='fas fa-shield-alt' />{' '}
               <a href='https://www.cloudflare.com/' className='mr-2'>
                 当前CDN节点: <span id="cdn"></span>
