@@ -149,7 +149,7 @@ const BLOG = {
 
   // 自定义外部脚本，外部样式
   CUSTOM_EXTERNAL_JS: ['https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js','https://cdn.nankoyo.com/public/cache/blog/js/cf-cdn.js','https://myhkw.cn/api/player/167490322175','https://api.concord.tech/site-v1/b79e079e-2bdf-4048-a587-ea3ffbcd5fe4/site-client','https://v1.hitokoto.cn/?encode=js&select=%23hitokoto'], // e.g. ['http://xx.com/script.js','http://xx.com/script.js']
-  CUSTOM_EXTERNAL_CSS: [''], // e.g. ['http://xx.com/style.css','http://xx.com/style.css']
+  CUSTOM_EXTERNAL_CSS: ['https://cdn.nankoyo.com/public/cache/blog/css/pay.css'], // e.g. ['http://xx.com/style.css','http://xx.com/style.css']
 
   // 侧栏布局 是否反转(左变右,右变左) 已支持主题: hexo next medium fukasawa example
   LAYOUT_SIDEBAR_REVERSE:
