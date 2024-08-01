@@ -44,70 +44,38 @@ export default function PostCopyright() {
           {locale.COMMON.COPYRIGHT_NOTICE}
         </li>
         <div
+  className="reward"
   style={{
-    fontSize: '16px',
-    margin: '20px auto',
-    padding: '10px 0',
-    textAlign: 'center',
-    width: '100%'
+    marginTop: '500px'
   }}
 >
-  <button
-    disable="enable"
-    id="rewardButton"
-    onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}"
-  >
-    <span>
-      打赏
-    </span>
-  </button>
-  <div
-    id="QR"
-    style={{
-      display: 'none'
-    }}
-  >
-    <div
-      id="wechat"
-      style={{
-        display: 'inline-block'
-      }}
-    >
-      <a
-        className="fancybox"
-        rel="group"
-      >
+  <div className="reward-button">
+    赏
+    <span className="reward-code">
+      <span className="alipay-code">
         <img
-          alt="WeChat Pay"
-          id="wechat_qr"
-          src="https://cdn.nankoyo.com/public/cache/blog/posts/wechat.jpg"
-        />
-      </a>
-      <p>
-        微信打赏
-      </p>
-    </div>
-    <div
-      id="alipay"
-      style={{
-        display: 'inline-block'
-      }}
-    >
-      <a
-        className="fancybox"
-        rel="group"
-      >
-        <img
-          alt="Alipay"
-          id="alipay_qr"
+          className="alipay-img"
           src="https://cdn.nankoyo.com/public/cache/blog/posts/alipay.jpg"
         />
-      </a>
-      <p>
-        支付宝打赏
-      </p>
-    </div>
+        <b>
+          支付宝扫码打赏
+        </b>
+      </span>
+      <span className="wechat-code">
+        <img
+          className="wechat-img"
+          src="https://cdn.nankoyo.com/public/cache/blog/posts/wechat.jpg"
+        />
+        <b>
+          微信打赏
+        </b>
+      </span>
+    </span>
   </div>
+  <p className="reward-notice">
+    {' '}如果文章对您有帮助，欢迎移至上方按钮打赏作者{' '}
+  </p>
+  {' '}
 </div>
       </ul>
     </section>
