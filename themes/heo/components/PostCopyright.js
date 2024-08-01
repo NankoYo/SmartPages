@@ -44,7 +44,7 @@ export default function PostCopyright() {
           {locale.COMMON.COPYRIGHT_NOTICE}
         </li>
         <li>
-          <p id="hitokoto">
+          每日一言：<p id="hitokoto">
           :D 获取中...
           </p>
         </li>
