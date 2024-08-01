@@ -29,12 +29,12 @@ const Footer = ({ title }) => {
             id='footer-bottom'
             className='w-full h-20 flex flex-col p-3 lg:flex-row justify-between px-6 items-center bg-[#f1f3f7] dark:bg-[#21232A] border-t dark:border-t-[#3D3D3F]'>
             <div id='footer-bottom-left'>     
-            2021-2024<i className='mx-1 animate-pulse fas fa-registered' />{' '}
+            Copyright{' '}<i className='mx-1 animate-pulse fas fa-registered' />2021-2024{' '}
           <a
             href='https://blog.nankoyo.com/'
             className='underline font-bold dark:text-gray-300 '>
            NanKoYo, Inc
-          </a><br />
+          </a>{' '}All Rights Reserved. <br />
           <i className='fa-solid fa-language' />{' '}
               <a href='https://blog.nankoyo.com/' className='mr-2'>
                 每日一言: <span id="hitokoto"></span>
