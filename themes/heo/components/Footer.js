@@ -35,7 +35,11 @@ const Footer = ({ title }) => {
             className='underline font-bold dark:text-gray-300 '>
            NanKoYo, Inc
           </a><br />
-          <i className='fas fa-shield-alt' />{' '}
+          <i className='fa-solid fa-language' />{' '}
+              <a href='https://blog.nankoyo.com/' className='mr-2'>
+                每日一言: <span id="hitokoto"></span>
+              </a>
+         <i className='fas fa-shield-alt' />{' '}
               <a href='https://www.cloudflare.com/' className='mr-2'>
                 当前CDN节点: <span id="cdn"></span>
               </a>
