@@ -43,11 +43,6 @@ export default function PostCopyright() {
           <strong className='mr-2'>{locale.COMMON.COPYRIGHT}:</strong>
           {locale.COMMON.COPYRIGHT_NOTICE}
         </li>
-        <li>
-          每日一言：<p id="hitokoto">
-          :D 获取中...
-          </p>
-        </li>
       </ul>
     </section>
   )
