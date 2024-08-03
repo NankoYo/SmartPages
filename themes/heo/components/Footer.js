@@ -122,15 +122,32 @@ const Footer = ({ title }) => {
           id="blog_running_secs"
         />
         S
-      </span><br />
-      <i className='fa-solid fa-language' />{' '}
-              <a href='https://blog.nankoyo.com/' className='mr-2'>
-                一言: <span id="hitokoto"></span>
-          </a><br />
-         <i className='fas fa-shield-alt' />{' '}
-              <a href='https://www.cloudflare.com/' className='mr-2'>
-                当前CDN节点: <span id="cdn"></span>
-              </a>
+      </span><span className="badge-subject">
+      <i className="fa-solid fa-language" />
+      {' '}一言：
+    </span>
+    <span className="badge-value bg-orange">
+      <a
+        href="https://hitokoto.cn/"
+        one-link-mark="yes"
+        target="_blank"
+      >
+      <span id="hitokoto"></span>
+      </a>
+    </span>
+<span className="badge-subject">
+      <i className="fas fa-shield-alt" />
+      {' '}当前CDN节点: 
+    </span>
+    <span className="badge-value bg-orange">
+      <a
+        href="https://hitokoto.cn/"
+        one-link-mark="yes"
+        target="_blank"
+      >
+      <span id="cdn"></span>
+      </a>
+    </span>
     </div>
   </a>
 </div>
