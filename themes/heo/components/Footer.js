@@ -48,7 +48,6 @@ const Footer = ({ title }) => {
              <div class="github-badge-big">
         <span class="badge-subject"><i class="fas fa-id-card"></i> 一言 </span>
         <span class="badge-value bg-orange">
-            <!-- 备案链接 -->
             <a href="https://blog.nankoyo.com/" target="_blank" one-link-mark="yes"><span id="hitokoto"></span></a>
         </span>
     </div>
@@ -57,13 +56,11 @@ const Footer = ({ title }) => {
   <div class="github-badge-big">
         <span class="badge-subject"><i class="fas fa-cloudflare" aria-hidden="true"></i> CDN</span>
         <span class="badge-value bg-shallots">
-            <!-- Cloudflare链接 -->
             <a href="https://www.clouflare.com/" target="_blank" one-link-mark="yes">CloudFlare</a>
         </span>
  
         <span class="badge-subject"><i class="fas fa-wordpress"></i> Powered</span>
         <span class="badge-value bg-green">
-            <!-- wordpress链接 -->
             <a href="https://cn.wordpress.org/" target="_blank" one-link-mark="yes">
                 WordPress</a></span>
     </div>
@@ -76,7 +73,6 @@ const Footer = ({ title }) => {
         </script>
     </div>
  
-	<!-- 运行时间 -->
     <div class="github-badge-big">
         <span class="badge-subject"><i class="fa fa-clock-o"></i> Running Time</span><span
             class="badge-value bg-apricots"><span id="blog_running_days" class="odometer odometer-auto-theme"></span>
