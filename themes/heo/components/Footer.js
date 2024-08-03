@@ -62,7 +62,7 @@ const Footer = ({ title }) => {
       <i className="fa-brands fa-wordpress" />
       {' '}Powered
     </span>
-    <span className="badge-value bg-green">
+    <span className="badge-value bg-orange">
       <a
         href="https://cn.wordpress.org/"
         one-link-mark="yes"
