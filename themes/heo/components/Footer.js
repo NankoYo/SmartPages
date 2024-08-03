@@ -173,6 +173,5 @@ const Footer = ({ title }) => {
       </div>
     </footer>
   )
-}
 
 export default Footer
