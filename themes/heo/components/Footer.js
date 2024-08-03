@@ -42,7 +42,7 @@ const Footer = ({ title }) => {
         aria-hidden="true"
         className="fa-brands fa-cloudflare"
       />
-      {' '}CDN
+      CDN
     </span>
     <span className="badge-value bg-shallots">
       <a
@@ -56,7 +56,7 @@ const Footer = ({ title }) => {
     
     <span className="badge-subject">
       <i className="fa-brands fa-wordpress" />
-      {' '}Powered
+      Powered
     </span>
     <span className="badge-value bg-orange">
       <a
@@ -102,7 +102,7 @@ const Footer = ({ title }) => {
         aria-hidden="true"
         className="fa fa-copyright"
       />
-      Copyright{' '}
+      Copyright
     </span>
     <span className="badge-value bg-red">
       2021-2024
@@ -129,7 +129,7 @@ const Footer = ({ title }) => {
     <div className="github-badge-big">
       <span className="badge-subject">
         <i className="fa-solid fa-clock" />
-        {' '}Running Time
+        Running Time
       </span>
       <span className="badge-value bg-apricots">
         <span
@@ -141,12 +141,12 @@ const Footer = ({ title }) => {
           className="odometer odometer-auto-theme"
           id="blog_running_hours"
         />
-        {' '}H
+        H
         <span
           className="odometer odometer-auto-theme"
           id="blog_running_mins"
         />
-        {' '}M
+        M
         <span
           className="odometer odometer-auto-theme"
           id="blog_running_secs"
