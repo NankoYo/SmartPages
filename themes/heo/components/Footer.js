@@ -43,9 +43,7 @@ const Footer = ({ title }) => {
               <a href='https://www.cloudflare.com/' className='mr-2'>
                 当前CDN节点: <span id="cdn"></span>
               </a>
-        </div>
-
-  <div className="github-badge-big">
+    <div className="github-badge-big">
     <span className="badge-subject">
       <i className="fas fa-id-card" />
       {' '}一言{' '}
@@ -151,7 +149,8 @@ const Footer = ({ title }) => {
     </div>
   </a>
 </div>
- 
+        </div>
+
           <div id='footer-bottom-right'>
           {siteConfig('BEI_AN') && (
             <>
