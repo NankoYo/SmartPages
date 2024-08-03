@@ -48,8 +48,8 @@ const Footer = ({ title }) => {
         href="https://www.nankoyo.com/"
         one-link-mark="yes"
         target="_blank"
-      
-        NanKoYo{' '}Team
+        >
+        NanKoYo Team
       </a>
     </span>
   </div>
