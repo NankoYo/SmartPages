@@ -53,7 +53,6 @@ const Footer = ({ title }) => {
       </a>
     </span>
     
-    <div className="github-badge-big">
     <span className="badge-subject">
       <i className="fa-brands fa-wordpress" />
       {' '}Powered
@@ -68,7 +67,6 @@ const Footer = ({ title }) => {
       </a>
     </span>
   
-  <div className="github-badge-big">
   <span className="badge-subject">
       <i className="fa-solid fa-language" />
       {' '}一言：
@@ -83,7 +81,6 @@ const Footer = ({ title }) => {
       </a>
     </span>
 
-    <div className="github-badge-big">
       <span className="badge-subject">
       <i className="fas fa-shield-alt" />
       {' '}当前CDN节点: 
@@ -98,7 +95,6 @@ const Footer = ({ title }) => {
       </a>
     </span>
   
-  <div className="github-badge-big">
     <span className="badge-subject">
       <i
         aria-hidden="true"
