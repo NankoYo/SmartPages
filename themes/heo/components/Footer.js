@@ -47,7 +47,7 @@ const Footer = ({ title }) => {
     <span className="badge-subject">
       <i
         aria-hidden="true"
-        className="fas fa-shield-alt"
+        className="fa-brands fa-cloudflare"
       />
       {' '}当前CDN节点:{' '}
     </span>
