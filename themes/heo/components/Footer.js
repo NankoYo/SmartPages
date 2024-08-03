@@ -5,7 +5,7 @@ const Footer = ({ title }) => {
   const d = new Date()
   const currentYear = d.getFullYear()
   const since = siteConfig('SINCE')
-  const copyrightDate = parseInt(since) < currentYear ? since + '-' + currentYear : currentYear
+  const copyrightDate = parseInt(since) < currentYear? since + '-' + currentYear : currentYear
 
   return (
         <footer
@@ -30,8 +30,7 @@ const Footer = ({ title }) => {
             id='footer-bottom'
             className='w-full h-20 flex flex-col p-3 lg:flex-row justify-between px-6 items-center bg-[#f1f3f7] dark:bg-[#21232A] border-t dark:border-t-[#3D3D3F]'>
             <div id='footer-bottom-left'>
-              <a href='https://blog.nankoyo.com/' className='mr-2'>
-          </a>
+              <a href='https://blog.nankoyo.com/' className='mr-2'></a>
               </div>
               
               <div id='footer-bottom-left'>
@@ -42,7 +41,7 @@ const Footer = ({ title }) => {
         aria-hidden="true"
         className="fa-brands fa-cloudflare"
       />
-      CDN
+      {' '}CDN
     </span>
     <span className="badge-value bg-shallots">
       <a
@@ -54,9 +53,10 @@ const Footer = ({ title }) => {
       </a>
     </span>
     
+    <div className="github-badge-big">
     <span className="badge-subject">
       <i className="fa-brands fa-wordpress" />
-      Powered
+      {' '}Powered
     </span>
     <span className="badge-value bg-orange">
       <a
@@ -68,9 +68,10 @@ const Footer = ({ title }) => {
       </a>
     </span>
   
+  <div className="github-badge-big">
   <span className="badge-subject">
       <i className="fa-solid fa-language" />
-      一言：
+      {' '}一言：
     </span>
     <span className="badge-value bg-orange">
       <a
@@ -82,9 +83,10 @@ const Footer = ({ title }) => {
       </a>
     </span>
 
+    <div className="github-badge-big">
       <span className="badge-subject">
       <i className="fas fa-shield-alt" />
-      当前CDN节点: 
+      {' '}当前CDN节点: 
     </span>
     <span className="badge-value bg-orange">
       <a
@@ -102,7 +104,7 @@ const Footer = ({ title }) => {
         aria-hidden="true"
         className="fa fa-copyright"
       />
-      Copyright
+      Copyright{' '}
     </span>
     <span className="badge-value bg-red">
       2021-2024
@@ -118,8 +120,7 @@ const Footer = ({ title }) => {
       href="https://www.nankoyo.com/"
       one-link-mark="yes"
       target="_blank"
-    >
-    </a>
+    ></a>
   </div>
   <a
     href="https://www.nankoyo.com/"
@@ -129,7 +130,7 @@ const Footer = ({ title }) => {
     <div className="github-badge-big">
       <span className="badge-subject">
         <i className="fa-solid fa-clock" />
-        Running Time
+        {' '}Running Time
       </span>
       <span className="badge-value bg-apricots">
         <span
@@ -141,12 +142,12 @@ const Footer = ({ title }) => {
           className="odometer odometer-auto-theme"
           id="blog_running_hours"
         />
-        H
+        {' '}H
         <span
           className="odometer odometer-auto-theme"
           id="blog_running_mins"
         />
-        M
+        {' '}M
         <span
           className="odometer odometer-auto-theme"
           id="blog_running_secs"
@@ -155,8 +156,8 @@ const Footer = ({ title }) => {
       </span>
     </div>
   </a>
-</div>
-        
+  </div>
+  </div>
 
           <div id='footer-bottom-right'>
           {siteConfig('BEI_AN') && (
@@ -184,4 +185,3 @@ const Footer = ({ title }) => {
 }
 
 export default Footer
-  
