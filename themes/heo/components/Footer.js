@@ -54,7 +54,6 @@ const Footer = ({ title }) => {
       </a>
     </span>
     
-    <div className="github-badge-big">
     <span className="badge-subject">
       <i className="fa-brands fa-wordpress" />
       {' '}Powered
@@ -69,10 +68,9 @@ const Footer = ({ title }) => {
       </a>
     </span>
   
-  <div className="github-badge-big">
   <span className="badge-subject">
       <i className="fa-solid fa-language" />
-      {' '}一言：
+      一言：
     </span>
     <span className="badge-value bg-orange">
       <a
@@ -84,10 +82,9 @@ const Footer = ({ title }) => {
       </a>
     </span>
 
-    <div className="github-badge-big">
       <span className="badge-subject">
       <i className="fas fa-shield-alt" />
-      {' '}当前CDN节点: 
+      当前CDN节点: 
     </span>
     <span className="badge-value bg-orange">
       <a
