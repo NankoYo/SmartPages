@@ -28,7 +28,6 @@ const Footer = ({ title }) => {
         id='footer-bottom'
         className='w-full h-20 flex flex-col p-3 lg:flex-row justify-between px-6 items-center bg-[#f1f3f7] dark:bg-[#21232A] border-t dark:border-t-[#3D3D3F]'>
         <div id='footer-bottom-left'>
-          <div>
   <div className="github-badge-big">
     <span className="badge-subject">
       <i className="fa-solid fa-language" />
