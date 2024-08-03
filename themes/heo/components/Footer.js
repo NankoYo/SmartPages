@@ -35,7 +35,8 @@ const Footer = ({ title }) => {
               </div>
               
               <div id='footer-bottom-left'>
-  <div className="github-badge-big">
+    
+    <div className="github-badge-big">
     <span className="badge-subject">
       <i
         aria-hidden="true"
@@ -52,6 +53,8 @@ const Footer = ({ title }) => {
         CloudFlare
       </a>
     </span>
+    
+    <div className="github-badge-big">
     <span className="badge-subject">
       <i className="fa-brands fa-wordpress" />
       {' '}Powered
@@ -65,7 +68,8 @@ const Footer = ({ title }) => {
         WordPress
       </a>
     </span>
-  </div>
+  
+  <div className="github-badge-big">
   <span className="badge-subject">
       <i className="fa-solid fa-language" />
       {' '}一言：
@@ -78,8 +82,10 @@ const Footer = ({ title }) => {
       >
       <span id="hitokoto"></span>
       </a>
-    </span>     
-<span className="badge-subject">
+    </span>
+
+    <div className="github-badge-big">
+      <span className="badge-subject">
       <i className="fas fa-shield-alt" />
       {' '}当前CDN节点: 
     </span>
@@ -92,7 +98,7 @@ const Footer = ({ title }) => {
       <span id="cdn"></span>
       </a>
     </span>
-  </div>
+  
   <div className="github-badge-big">
     <span className="badge-subject">
       <i
