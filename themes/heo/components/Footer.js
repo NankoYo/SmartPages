@@ -30,6 +30,17 @@ const Footer = ({ title }) => {
             id='footer-bottom'
             className='w-full h-20 flex flex-col p-3 lg:flex-row justify-between px-6 items-center bg-[#f1f3f7] dark:bg-[#21232A] border-t dark:border-t-[#3D3D3F]'>
             <div id='footer-bottom-left'>
+          <i className='fa-solid fa-language' />{' '}
+              <a href='https://blog.nankoyo.com/' className='mr-2'>
+                一言: <span id="hitokoto"></span>
+          </a><br />
+         <i className='fas fa-shield-alt' />{' '}
+              <a href='https://www.cloudflare.com/' className='mr-2'>
+                当前CDN节点: <span id="cdn"></span>
+              </a>
+              </div>
+              
+              <div id='footer-bottom-left'>
   <div className="github-badge-big">
     <span className="badge-subject">
       <i
@@ -118,14 +129,6 @@ const Footer = ({ title }) => {
         />
         S
       </span>
-      <i className='fa-solid fa-language' />{' '}
-              <a href='https://blog.nankoyo.com/' className='mr-2'>
-                一言: <span id="hitokoto"></span>
-          </a><br />
-         <i className='fas fa-shield-alt' />{' '}
-              <a href='https://www.cloudflare.com/' className='mr-2'>
-                当前CDN节点: <span id="cdn"></span>
-              </a>
     </div>
   </a>
 </div>
