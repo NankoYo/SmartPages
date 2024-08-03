@@ -151,6 +151,7 @@ const Footer = ({ title }) => {
         S
       </span>
     </div>
+    </a>
 
           <div id='footer-bottom-right'>
           {siteConfig('BEI_AN') && (
