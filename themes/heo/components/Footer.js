@@ -153,12 +153,10 @@ const Footer = ({ title }) => {
           id="blog_running_secs"
         />
         S
+        </a>
       </span>
     </div>
-  </a>
-  </div>
-  </div>
-
+  
           <div id='footer-bottom-right'>
           {siteConfig('BEI_AN') && (
             <>
