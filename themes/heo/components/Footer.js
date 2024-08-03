@@ -57,9 +57,9 @@ const Footer = ({ title }) => {
     <span className="badge-subject">
       <i
         aria-hidden="true"
-        className="fa fas-cloud"
+        className="fas fa-shield-alt"
       />
-      {' '}CDN
+      {' '}当前CDN节点:
     </span>
     <span className="badge-value bg-shallots">
       <a
@@ -67,7 +67,7 @@ const Footer = ({ title }) => {
         one-link-mark="yes"
         target="_blank"
       >
-        CloudFlare
+        <span id="cdn" />
       </a>
     </span>
     <span className="badge-subject">
@@ -108,8 +108,35 @@ const Footer = ({ title }) => {
       target="_blank"
     >
     </a>
-    一言: <span id="hitokoto"></span>
-    当前CDN节点: <span id="cdn"></span>
+  </div>
+  <a
+    href="https://blog.nankoyo.com/"
+    one-link-mark="yes"
+    target="_blank"
+  >
+    <div className="github-badge-big">
+    <span className="badge-subject">
+      <i
+        aria-hidden="true"
+        className="fas fa-shield-alt"
+      />
+      一言{' '}
+    </span>
+    <span className="badge-value bg-red">
+      <a
+        href="https://blog.nankoyo.com/"
+        one-link-mark="yes"
+        target="_blank"
+      >
+        <span id="hitokoto" />
+      </a>
+    </span>
+    <a
+      href="https://blog.nankoyo.com/"
+      one-link-mark="yes"
+      target="_blank"
+    >
+    </a>
   </div>
   <a
     href="https://blog.nankoyo.com/"
