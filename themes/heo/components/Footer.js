@@ -78,8 +78,7 @@ const Footer = ({ title }) => {
       >
       <span id="hitokoto"></span>
       </a>
-    </span>
-</div>      
+    </span>     
 <span className="badge-subject">
       <i className="fas fa-shield-alt" />
       {' '}当前CDN节点: 
