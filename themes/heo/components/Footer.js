@@ -45,7 +45,7 @@ const Footer = ({ title }) => {
     <span className="badge-subject">
       <i
         aria-hidden="true"
-        className="fa fa-cloudflare"
+        className="fas fa-cloudflare"
       />
       {' '}CDN
     </span>
@@ -59,7 +59,7 @@ const Footer = ({ title }) => {
       </a>
     </span>
     <span className="badge-subject">
-      <i className="fa fa-wordpress" />
+      <i className="fas fa-wordpress" />
       {' '}Powered
     </span>
     <span className="badge-value bg-green">
@@ -76,7 +76,7 @@ const Footer = ({ title }) => {
     <span className="badge-subject">
       <i
         aria-hidden="true"
-        className="fa fa-copyright"
+        className="fas fa-copyright"
       />
       Copyright{' '}
     </span>
@@ -104,7 +104,7 @@ const Footer = ({ title }) => {
   >
     <div className="github-badge-big">
       <span className="badge-subject">
-        <i className="fa fa-clock-o" />
+        <i className="fas fa-clock-o" />
         {' '}Running Time
       </span>
       <span className="badge-value bg-apricots">
