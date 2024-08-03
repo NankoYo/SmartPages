@@ -66,6 +66,34 @@ const Footer = ({ title }) => {
       </a>
     </span>
   </div>
+  <span className="badge-subject">
+      <i className="fa-solid fa-language" />
+      {' '}一言：
+    </span>
+    <span className="badge-value bg-orange">
+      <a
+        href="https://hitokoto.cn/"
+        one-link-mark="yes"
+        target="_blank"
+      >
+      <span id="hitokoto"></span>
+      </a>
+    </span>
+</div>      
+<span className="badge-subject">
+      <i className="fas fa-shield-alt" />
+      {' '}当前CDN节点: 
+    </span>
+    <span className="badge-value bg-orange">
+      <a
+        href="https://hitokoto.cn/"
+        one-link-mark="yes"
+        target="_blank"
+      >
+      <span id="cdn"></span>
+      </a>
+    </span>
+  </div>
   <div className="github-badge-big">
     <span className="badge-subject">
       <i
@@ -122,32 +150,7 @@ const Footer = ({ title }) => {
           id="blog_running_secs"
         />
         S
-      </span><span className="badge-subject">
-      <i className="fa-solid fa-language" />
-      {' '}一言：
-    </span>
-    <span className="badge-value bg-orange">
-      <a
-        href="https://hitokoto.cn/"
-        one-link-mark="yes"
-        target="_blank"
-      >
-      <span id="hitokoto"></span>
-      </a>
-    </span>
-<span className="badge-subject">
-      <i className="fas fa-shield-alt" />
-      {' '}当前CDN节点: 
-    </span>
-    <span className="badge-value bg-orange">
-      <a
-        href="https://hitokoto.cn/"
-        one-link-mark="yes"
-        target="_blank"
-      >
-      <span id="cdn"></span>
-      </a>
-    </span>
+      </span>
     </div>
   </a>
 </div>
