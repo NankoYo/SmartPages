@@ -45,43 +45,113 @@ const Footer = ({ title }) => {
               </a>
         </div>
 
-             <div class="github-badge-big">
-        <span class="badge-subject"><i class="fas fa-id-card"></i> 一言 </span>
-        <span class="badge-value bg-orange">
-            <a href="https://blog.nankoyo.com/" target="_blank" one-link-mark="yes"><span id="hitokoto"></span></a>
-        </span>
+  <div className="github-badge-big">
+    <span className="badge-subject">
+      <i className="fas fa-id-card" />
+      {' '}一言{' '}
+    </span>
+    <span className="badge-value bg-orange">
+      <a
+        href="https://blog.nankoyo.com/"
+        one-link-mark="yes"
+        target="_blank"
+      >
+        <span id="hitokoto" />
+      </a>
+    </span>
+  </div>
+  <div className="github-badge-big">
+    <span className="badge-subject">
+      <i
+        aria-hidden="true"
+        className="fas fa-cloudflare"
+      />
+      {' '}CDN
+    </span>
+    <span className="badge-value bg-shallots">
+      <a
+        href="https://www.clouflare.com/"
+        one-link-mark="yes"
+        target="_blank"
+      >
+        CloudFlare
+      </a>
+    </span>
+    <span className="badge-subject">
+      <i className="fas fa-wordpress" />
+      {' '}Powered
+    </span>
+    <span className="badge-value bg-green">
+      <a
+        href="https://cn.wordpress.org/"
+        one-link-mark="yes"
+        target="_blank"
+      >
+        WordPress
+      </a>
+    </span>
+  </div>
+  <div className="github-badge-big">
+    <span className="badge-subject">
+      <i
+        aria-hidden="true"
+        className="fas fa-copyright"
+      />
+      Copyright{' '}
+    </span>
+    <span className="badge-value bg-red">
+      2021-2024
+      <a
+        href="https://www.nankoyo.com/"
+        one-link-mark="yes"
+        target="_blank"
+      >
+        @ NanKoYo, Inc.
+      </a>
+    </span>
+    <a
+      href="https://www.nankoyo.com/"
+      one-link-mark="yes"
+      target="_blank"
+    >
+    </a>
+  </div>
+  <a
+    href="https://www.nankoyo.com/"
+    one-link-mark="yes"
+    target="_blank"
+  >
+    <div className="github-badge-big">
+      <span className="badge-subject">
+        <i className="fa fa-clock-o" />
+        {' '}Running Time
+      </span>
+      <span className="badge-value bg-apricots">
+        <span
+          className="odometer odometer-auto-theme"
+          id="blog_running_days"
+        />
+        days
+        <span
+          className="odometer odometer-auto-theme"
+          id="blog_running_hours"
+        />
+        {' '}H
+        <span
+          className="odometer odometer-auto-theme"
+          id="blog_running_mins"
+        />
+        {' '}M
+        <span
+          className="odometer odometer-auto-theme"
+          id="blog_running_secs"
+        />
+        S
+      </span>
     </div>
+  </a>
+</div>
  
- 
-  <div class="github-badge-big">
-        <span class="badge-subject"><i class="fas fa-cloudflare" aria-hidden="true"></i> CDN</span>
-        <span class="badge-value bg-shallots">
-            <a href="https://www.clouflare.com/" target="_blank" one-link-mark="yes">CloudFlare</a>
-        </span>
- 
-        <span class="badge-subject"><i class="fas fa-wordpress"></i> Powered</span>
-        <span class="badge-value bg-green">
-            <a href="https://cn.wordpress.org/" target="_blank" one-link-mark="yes">
-                WordPress</a></span>
-    </div>
- 
-    <div class="github-badge-big">
-        <span class="badge-subject"><i class="fas fa-copyright" aria-hidden="true"></i>Copyright </span>
-        <span class="badge-value bg-red">2021-2024</i>
-            <a href="https://www.nankoyo.com/" target="_blank" one-link-mark="yes">@ NanKoYo, Inc.
-        </span>
-        </script>
-    </div>
- 
-    <div class="github-badge-big">
-        <span class="badge-subject"><i class="fa fa-clock-o"></i> Running Time</span><span
-            class="badge-value bg-apricots"><span id="blog_running_days" class="odometer odometer-auto-theme"></span>
-            days
-            <span id="blog_running_hours" class="odometer odometer-auto-theme"></span> H
-            <span id="blog_running_mins" class="odometer odometer-auto-theme"></span> M
-            <span id="blog_running_secs" class="odometer odometer-auto-theme"></span>S
-        </span>
-
           <div id='footer-bottom-right'>
           {siteConfig('BEI_AN') && (
             <>
