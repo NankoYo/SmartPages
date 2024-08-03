@@ -45,6 +45,47 @@ const Footer = ({ title }) => {
               </a>
         </div>
 
+             <div class="github-badge-big">
+        <span class="badge-subject"><i class="fas fa-id-card"></i> 一言 </span>
+        <span class="badge-value bg-orange">
+            <!-- 备案链接 -->
+            <a href="https://blog.nankoyo.com/" target="_blank" one-link-mark="yes"><span id="hitokoto"></span></a>
+        </span>
+    </div>
+ 
+ 
+  <div class="github-badge-big">
+        <span class="badge-subject"><i class="fas fa-cloudflare" aria-hidden="true"></i> CDN</span>
+        <span class="badge-value bg-shallots">
+            <!-- Cloudflare链接 -->
+            <a href="https://www.clouflare.com/" target="_blank" one-link-mark="yes">CloudFlare</a>
+        </span>
+ 
+        <span class="badge-subject"><i class="fas fa-wordpress"></i> Powered</span>
+        <span class="badge-value bg-green">
+            <!-- wordpress链接 -->
+            <a href="https://cn.wordpress.org/" target="_blank" one-link-mark="yes">
+                WordPress</a></span>
+    </div>
+ 
+    <div class="github-badge-big">
+        <span class="badge-subject"><i class="fas fa-copyright" aria-hidden="true"></i>Copyright </span>
+        <span class="badge-value bg-red">2021-2024</i>
+            <a href="https://www.nankoyo.com/" target="_blank" one-link-mark="yes">@ NanKoYo, Inc.
+        </span>
+        </script>
+    </div>
+ 
+	<!-- 运行时间 -->
+    <div class="github-badge-big">
+        <span class="badge-subject"><i class="fa fa-clock-o"></i> Running Time</span><span
+            class="badge-value bg-apricots"><span id="blog_running_days" class="odometer odometer-auto-theme"></span>
+            days
+            <span id="blog_running_hours" class="odometer odometer-auto-theme"></span> H
+            <span id="blog_running_mins" class="odometer odometer-auto-theme"></span> M
+            <span id="blog_running_secs" class="odometer odometer-auto-theme"></span>S
+        </span>
+
           <div id='footer-bottom-right'>
           {siteConfig('BEI_AN') && (
             <>
