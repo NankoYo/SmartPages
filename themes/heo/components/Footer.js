@@ -84,7 +84,7 @@ const Footer = ({ title }) => {
       Copyright{' '}
     </span>
     <span className="badge-value bg-red">
-      2021-2024
+      2021-2024{' '}
       <a
         href="https://blog.nankoyo.com/"
         one-link-mark="yes"
