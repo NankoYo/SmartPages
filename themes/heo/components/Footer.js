@@ -28,14 +28,113 @@ const Footer = ({ title }) => {
         id='footer-bottom'
         className='w-full h-20 flex flex-col p-3 lg:flex-row justify-between px-6 items-center bg-[#f1f3f7] dark:bg-[#21232A] border-t dark:border-t-[#3D3D3F]'>
         <div id='footer-bottom-left'>
-          NotionNext {siteConfig('VERSION')} <i className='fas fa-copyright' />{' '}
-          {`${copyrightDate}`} <i className='mx-1 animate-pulse fas fa-heart' />{' '}
-          <a
-            href={siteConfig('LINK')}
-            className='underline font-bold dark:text-gray-300 '>
-            {siteConfig('AUTHOR')}
-          </a>
-          .
+          <div>
+  <div className="github-badge-big">
+    <span className="badge-subject">
+      <i className="fa-solid fa-language" />
+      {' '}一言{' '}
+    </span>
+    <span className="badge-value bg-orange">
+      <a
+        href="https://hitokoto.cn/"
+        one-link-mark="yes"
+        target="_blank"
+      >
+        <span id="hitokoto" />
+      </a>
+    </span>
+  </div>
+  <div className="github-badge-big">
+    <span className="badge-subject">
+      <i
+        aria-hidden="true"
+        className="fas fa-shield-alt"
+      />
+      {' '}当前CDN节点:{' '}
+    </span>
+    <span className="badge-value bg-shallots">
+      <a
+        href="https://www.cloudflare.com/"
+        one-link-mark="yes"
+        target="_blank"
+      >
+        {' '}
+        <span id="cdn" />
+      </a>
+    </span>
+    <span className="badge-subject">
+      <i className="fa-brands fa-wordpress" />
+      {' '}Powered
+    </span>
+    <span className="badge-value bg-orange">
+      <a
+        href="https://cn.wordpress.org/"
+        one-link-mark="yes"
+        target="_blank"
+      >
+        WordPress
+      </a>
+    </span>
+  </div>
+  <div className="github-badge-big">
+    <span className="badge-subject">
+      <i
+        aria-hidden="true"
+        className="fa-regular fa-copyright"
+      />
+      Copyright{' '}
+    </span>
+    <span className="badge-value bg-red">
+      2021-2024
+      <a
+        href="https://blog.nankoyo.com/"
+        one-link-mark="yes"
+        target="_blank"
+      >
+        NanKoYo,Inc
+      </a>
+    </span>
+    <a
+      href="https://blog.nankoyo.com/"
+      one-link-mark="yes"
+      target="_blank"
+    >
+    </a>
+  </div>
+  <a
+    href="https://blog.nankoyo.com/"
+    one-link-mark="yes"
+    target="_blank"
+  >
+    <div className="github-badge-big">
+      <span className="badge-subject">
+        <i className="fa-solid fa-clock" />
+        {' '}Running Time
+      </span>
+      <span className="badge-value bg-apricots">
+        <span
+          className="odometer odometer-auto-theme"
+          id="blog_running_days"
+        />
+        days
+        <span
+          className="odometer odometer-auto-theme"
+          id="blog_running_hours"
+        />
+        {' '}H
+        <span
+          className="odometer odometer-auto-theme"
+          id="blog_running_mins"
+        />
+        {' '}M
+        <span
+          className="odometer odometer-auto-theme"
+          id="blog_running_secs"
+        />
+        S
+      </span>
+    </div>
+  </a>
         </div>
 
         <div id='footer-bottom-right'>
