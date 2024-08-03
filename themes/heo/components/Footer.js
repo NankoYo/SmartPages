@@ -44,6 +44,122 @@ const Footer = ({ title }) => {
                 当前CDN节点: <span id="cdn"></span>
               </a>
         </div>
+
+              <div>
+  <div className="github-badge-big">
+    <span className="badge-subject">
+      <i className="fa fa-id-card" />
+      {' '}备案号{' '}
+    </span>
+    <span className="badge-value bg-orange">
+      <a
+        href="https://beian.miit.gov.cn/"
+        one-link-mark="yes"
+        target="_blank"
+      >
+        暂时没有申请计划
+      </a>
+      |
+      <a
+        href="https://www.beian.gov.cn/portal/index?token=e547b70c-fbe1-4c80-a4a2-857b17389a71"
+        one-link-mark="yes"
+        target="_blank"
+      >
+        暂无申请计划
+      </a>
+    </span>
+  </div>
+  <div className="github-badge-big">
+    <span className="badge-subject">
+      <i
+        aria-hidden="true"
+        className="fa fa-cloud"
+      />
+      {' '}CDN
+    </span>
+    <span className="badge-value bg-shallots">
+      <a
+        href="https://www.cloudFlare.com/"
+        one-link-mark="yes"
+        target="_blank"
+      >
+        CloudFlare
+      </a>
+    </span>
+    <span className="badge-subject">
+      <i className="fa fa-wordpress" />
+      {' '}Powered
+    </span>
+    <span className="badge-value bg-green">
+      <a
+        href="https://cn.wordpress.org/"
+        one-link-mark="yes"
+        target="_blank"
+      >
+        WordPress
+      </a>
+    </span>
+  </div>
+  <div className="github-badge-big">
+    <span className="badge-subject">
+      <i
+        aria-hidden="true"
+        className="fa fa-copyright"
+      />
+      Copyright{' '}
+    </span>
+    <span className="badge-value bg-red">
+      2022-2023
+      <a
+        href="https://blog.nankoyo.com/"
+        one-link-mark="yes"
+        target="_blank"
+      >
+        @ NanKoYo
+      </a>
+    </span>
+    <a
+      href="https://blog.nankoyo.com/"
+      one-link-mark="yes"
+      target="_blank"
+    >
+    </a>
+  </div>
+  <a
+    href="https://blog.nankoyo.com/"
+    one-link-mark="yes"
+    target="_blank"
+  >
+    <div className="github-badge-big">
+      <span className="badge-subject">
+        <i className="fa fa-clock-o" />
+        {' '}Running Time
+      </span>
+      <span className="badge-value bg-apricots">
+        <span
+          className="odometer odometer-auto-theme"
+          id="blog_running_days"
+        />
+        days
+        <span
+          className="odometer odometer-auto-theme"
+          id="blog_running_hours"
+        />
+        {' '}H
+        <span
+          className="odometer odometer-auto-theme"
+          id="blog_running_mins"
+        />
+        {' '}M
+        <span
+          className="odometer odometer-auto-theme"
+          id="blog_running_secs"
+        />
+        S
+      </span>
+    </div>
+  </a>
+</div>
               
             <div id='footer-bottom-right'>
                 
